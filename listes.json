@@ -1,9 +1,9 @@
 [
     {"annee":"2022-2023","listes":[
-        {"nom":"Wanted","lien":"https://www.facebook.com/ListeBDEWanted","couleur":"#724d41","texte":"#dddddd","image":"assets/wanted.png","animal":"bison"},
         {"nom":"Blackpearl","animal":"renard","lien":"https://www.facebook.com/listeblackpearl","couleur":"#ff786b","image":"assets/blackpearl.png"},
+        {"nom":"Wanted","lien":"https://www.facebook.com/ListeBDEWanted","couleur":"#724d41","texte":"#dddddd","image":"assets/wanted.png","animal":"bison"},
         {"nom":"Hydra","animal":"poulpe","lien":"https://www.facebook.com/listebdehydra","couleur":"#53005a","image":"assets/hydra.jpg","texte":"#ffffff"}
-    ],"unfinished":true},
+    ]},
     {"annee":"2021-2022","listes":[
         {"nom":"Kheops","couleur":"#061b2e","texte":"white","lien":"https://www.facebook.com/BDEKheops","image":"assets/kheops.png","animal":"faucon","ecart":12},
         {"nom":"Kimera","couleur":"#9c1616","texte":"#c6aa67","lien":"https://www.facebook.com/listebdekimera","image":"assets/kimera.png","animal":"cerbère"},
