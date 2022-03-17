@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Les listes</title>
+        <link rel="icon" type="image/svg" href="/cards/assets/arel.svg" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="/utils.js"></script>
+    </head>
+    <body>
+        <div id="listes"></div>
+        <script>
+            sendRequest("GET", "listes.json").then(function(listesJSON){
+                var annees = JSON.parse(listesJSON);
+                var listesDiv = document.getElementById("listes");
+                for (let annee of annees) {
+                    if (!annee.unfinished)
+                        listesDiv.appendChild(createElement("div", {className:"annee",style:{backgroundColor:annee.listes[0].couleur,color:annee.listes[0].texte}}, annee.annee+" - BDE "+annee.listes[0].nom));
+                    listesDiv.appendChild(createElement("div", {className:"listes",title:annee.annee}, annee.listes.map(function(liste){
+                        return createElement("a", {style:{backgroundColor:liste.couleur, color:liste.texte},href:liste.lien||""}, [
+                            liste.image?createElement("img", {src:liste.image}):"",
+                            createElement("span", {}, liste.nom),
+                            liste.ecart?createElement("span", {className:"ecart"}, "+"+liste.ecart):""
+                        ])
+                    })));
+                }
+            });
+        </script>
+    </body>
+</html>
