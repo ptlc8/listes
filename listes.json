@@ -92,10 +92,27 @@
         {"nom":"Pleine Lune"}
     ]},
     {"annee":"2001-2002","listes":[
-        {"nom":"Taste it"}
+        {"nom":"Taste it"},
+        {"nom":"??"}
     ]},
     {"annee":"2000-2001","listes":[
-        {"nom":"Ace-team"}
+        {"nom":"Ace-team"},
+        {"nom":"??"}
+    ]},
+    {"annee":"1999-2000","listes":[
+        {"nom":"On'EISTI","votes":169,"ecart":68  },
+        {"nom":"Brainwave","votes":101},
+        {"nom":"EISTI'm","votes":35},
+        {"nom":"Pos'EISTI've","votes":0}
+    ],"votes":311,"blancs":6},
+    {"annee":"1998-1999","listes":[
+        {"nom":"F'EISTIval"},
+        {"nom":"Friends"},
+        {"nom":"Objectif 2000"}
+    ],"unfinished":true},
+    {"annee":"1995-1996","listes":[
+        {"nom":"Los amigos"},
+        {"nom":"Happy EISTI"}
     ]},
     {"annee":"1989-1990","listes":[
         {"nom":"Impression Soleil Levant","couleur":"Petit jaune, rouge Bordeaux et blanc sec"}    
