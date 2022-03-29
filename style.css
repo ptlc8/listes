@@ -28,4 +28,5 @@ a {
 .annee {
     padding: .5em;
 	text-align: center;
+    border-top: 1px solid black;
 }
