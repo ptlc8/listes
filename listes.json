@@ -1,6 +1,6 @@
 [
     {"annee":"2022-2023","listes":[
-        {"nom":"Blackpearl","animal":"renard","lien":"https://www.facebook.com/listeblackpearl","couleur":"#ff786b","image":"assets/blackpearl.png","ecart":58,"votes":198},
+        {"nom":"Blackpearl","animal":"renard","lien":"https://www.facebook.com/listeblackpearl","couleur":"#ff786b","image":"assets/blackpearl.png","ecart":86,"votes":198},
         {"nom":"Wanted","lien":"https://www.facebook.com/ListeBDEWanted","couleur":"#724d41","texte":"#dddddd","image":"assets/wanted.png","animal":"bison","votes":112},
         {"nom":"Hydra","animal":"poulpe","lien":"https://www.facebook.com/listebdehydra","couleur":"#53005a","image":"assets/hydra.jpg","texte":"#ffffff"}
     ],"votes":312},
@@ -33,7 +33,7 @@
         {"nom":"Eiscape","couleur":"#307b45","texte":"white","lien":"https://www.facebook.com/listebdeeiscape/","image":"assets/eiscape.png","animal":"cerf"}
     ]},
     {"annee":"2015-2016","listes":[
-        {"nom":"Stay High","couleur":"??","lien":"https://www.facebook.com/BDEStayHigh/","image":"assets/stay_high.png","animal":"chouette","ecart":84},
+        {"nom":"Stay High","couleur":"#ffffff","lien":"https://www.facebook.com/BDEStayHigh/","image":"assets/stay_high.png","animal":"chouette","ecart":84},
         {"nom":"Smart'Iz","couleur":"#15396b","texte":"white","lien":"https://www.facebook.com/Liste-BDE-SmartIz-1595577183991519/","image":"assets/smartiz.jpg","animal":"hamster"}
     ]},
     {"annee":"2014-2015","listes":[
@@ -46,11 +46,11 @@
     ]},
     {"annee":"2012-2013","listes":[
         {"nom":"Kiss cool","couleur":"darkblue","texte":"white","lien":"https://www.facebook.com/BDE.Eisti.KissCool","image":"assets/kiss_cool.jpg","animal":"yeti et manchot"},
-        {"nom":"Fanteistic","couleur":"#2626c1","lien":"https://www.facebook.com/listebde.fanteistic","texte":"#ff82bc","image":"assets/fanteistic.jpg"}
+        {"nom":"Fanteistic","couleur":"#2626c1","lien":"https://www.facebook.com/listebde.fanteistic","texte":"#f1aab2","image":"assets/fanteistic.png"}
     ]},
     {"annee":"2011-2012","listes":[
         {"nom":"Sismic","couleur":"#590c20","texte":"#f7f25b","lien":"https://www.facebook.com/bde.sismic","image":"assets/sismic.jpg","vote":170,"ecart":15},
-        {"nom":"Virtu'ose","couleur":"??","lien":"https://www.journal-officiel.gouv.fr/associations/detail-annonce/associations_b/20100047/1577","vote":155}
+        {"nom":"Virtu'ose","lien":"https://www.journal-officiel.gouv.fr/associations/detail-annonce/associations_b/20100047/1577","vote":155,"image":"assets/virtuose.png"}
     ]},
     {"annee":"2010-2011","listes":[
         {"nom":"Tasty'N'Trendy","couleur":"#aa0000","lien":"https://www.facebook.com/bde.tastyntrendy","image":"assets/tnt.jpg"},
