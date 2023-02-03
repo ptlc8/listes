@@ -1,4 +1,8 @@
 [
+    {"annee":"2023-2024","listes":[
+        {"nom":"Polar","image":"https://64.media.tumblr.com/b5647fc104e66e985bc116c8663be33c/tumblr_p8r51jOlRa1w63zv8o1_500.png","couleur":"#27c627"},
+        {"nom":"Asteria","image":"https://cdn.drawception.com/drawings/760965/aaGnZGvRz2.png","couleur":"#28b6cc"}
+    ],"unfinished":true},
     {"annee":"2022-2023","listes":[
         {"nom":"Blackpearl","animal":"renard","liens":{"facebook":"https://www.facebook.com/listeblackpearl"},"couleur":"#ff786b","image":"assets/blackpearl.png","ecart":86,"votes":198},
         {"nom":"Wanted","liens":{"facebook":"https://www.facebook.com/ListeBDEWanted", "instagram":"https://www.instagram.com/listebdewanted", "web":"https://liste-wanted.fr"},"couleur":"#724d41","texte":"#dddddd","image":"assets/wanted.png","animal":"bison","votes":112},
