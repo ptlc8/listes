@@ -12,6 +12,7 @@ body {
 }
 .listes {
     display: flex;
+    flex-wrap: wrap;
 }
 .listes > * {
     flex: 1;
