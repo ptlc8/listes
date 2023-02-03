@@ -1,69 +1,69 @@
 [
     {"annee":"2022-2023","listes":[
-        {"nom":"Blackpearl","animal":"renard","lien":"https://www.facebook.com/listeblackpearl","couleur":"#ff786b","image":"assets/blackpearl.png","ecart":86,"votes":198},
-        {"nom":"Wanted","lien":"https://www.facebook.com/ListeBDEWanted","couleur":"#724d41","texte":"#dddddd","image":"assets/wanted.png","animal":"bison","votes":112},
-        {"nom":"Hydra","animal":"poulpe","lien":"https://www.facebook.com/listebdehydra","couleur":"#53005a","image":"assets/hydra.jpg","texte":"#ffffff"}
+        {"nom":"Blackpearl","animal":"renard","liens":{"facebook":"https://www.facebook.com/listeblackpearl"},"couleur":"#ff786b","image":"assets/blackpearl.png","ecart":86,"votes":198},
+        {"nom":"Wanted","liens":{"facebook":"https://www.facebook.com/ListeBDEWanted", "instagram":"https://www.instagram.com/listebdewanted", "web":"https://liste-wanted.fr"},"couleur":"#724d41","texte":"#dddddd","image":"assets/wanted.png","animal":"bison","votes":112},
+        {"nom":"Hydra","animal":"poulpe","liens":{"facebook":"https://www.facebook.com/listebdehydra"},"couleur":"#53005a","image":"assets/hydra.jpg","texte":"#ffffff"}
     ],"votes":312},
     {"annee":"2021-2022","listes":[
-        {"nom":"Kheops","couleur":"#061b2e","texte":"white","lien":"https://www.facebook.com/BDEKheops","image":"assets/kheops.png","animal":"faucon","ecart":12},
-        {"nom":"Kimera","couleur":"#9c1616","texte":"#c6aa67","lien":"https://www.facebook.com/listebdekimera","image":"assets/kimera.png","animal":"cerbère"},
-        {"nom":"Yakuza","couleur":"#ffcaa6","lien":"https://www.facebook.com/ListeYakuza","image":"assets/yakuza.png","animal":"panda"},
+        {"nom":"Kheops","couleur":"#061b2e","texte":"white","liens":{"facebook":"https://www.facebook.com/BDEKheops"},"image":"assets/kheops.png","animal":"faucon","ecart":12},
+        {"nom":"Kimera","couleur":"#9c1616","texte":"#c6aa67","liens":{"facebook":"https://www.facebook.com/listebdekimera"},"image":"assets/kimera.png","animal":"cerbère"},
+        {"nom":"Yakuza","couleur":"#ffcaa6","liens":{"facebook":"https://www.facebook.com/ListeYakuza"},"image":"assets/yakuza.png","animal":"panda"},
         {"nom":"Rift","couleur":"#2a51dc","image":"assets/rift.png","animal":"axolot"}
     ]},
     {"annee":"2020-2021","listes":[
-        {"nom":"Drakkar","couleur":"#10532a","texte":"white","lien":"https://www.facebook.com/BDEDrakkar/","image":"assets/drakkar.jpg","animal":"bélier","ecart":51},
-        {"nom":"Moonlight","couleur":"#6ccfef","lien":"https://www.facebook.com/ListeBDEMoonlight/","image":"assets/moonlight.png","animal":"tigre blanc"},
-        {"nom":"Genesis","couleur":"#ffb533","lien":"https://www.facebook.com/ListeGenesis/","image":"assets/genesis.png","animal":"springbok"}
+        {"nom":"Drakkar","couleur":"#10532a","texte":"white","liens":{"facebook":"https://www.facebook.com/BDEDrakkar/"},"image":"assets/drakkar.jpg","animal":"bélier","ecart":51},
+        {"nom":"Moonlight","couleur":"#6ccfef","liens":{"facebook":"https://www.facebook.com/ListeBDEMoonlight/"},"image":"assets/moonlight.png","animal":"tigre blanc"},
+        {"nom":"Genesis","couleur":"#ffb533","liens":{"facebook":"https://www.facebook.com/ListeGenesis/"},"image":"assets/genesis.png","animal":"springbok"}
     ]},
     {"annee":"2019-2020","listes":[
-        {"nom":"Run Wild","couleur":"#cee6d0","texte":"#052b46","lien":"https://www.facebook.com/BDERunWild/","image":"assets/run_wild.jpg","animal":"rhinocéros","ecart":113},
-        {"nom":"Reborn","couleur":"#ff0012","lien":"https://www.facebook.com/ListeReborn/","image":"assets/reborn.png","animal":"phoenix"},
-        {"nom":"Dynasty","couleur":"#ded4d7","lien":"https://www.facebook.com/ListeDynasty/","image":"assets/dynasty.jpg","animal":"panthère noire"}
+        {"nom":"Run Wild","couleur":"#cee6d0","texte":"#052b46","liens":{"facebook":"https://www.facebook.com/BDERunWild/"},"image":"assets/run_wild.jpg","animal":"rhinocéros","ecart":113},
+        {"nom":"Reborn","couleur":"#ff0012","liens":{"facebook":"https://www.facebook.com/ListeReborn/"},"image":"assets/reborn.png","animal":"phoenix"},
+        {"nom":"Dynasty","couleur":"#ded4d7","liens":{"facebook":"https://www.facebook.com/ListeDynasty/"},"image":"assets/dynasty.jpg","animal":"panthère noire"}
     ]},
     {"annee":"2018-2019","listes":[
-        {"nom":"Equinox","couleur":"#6c358b","texte":"white","lien":"https://www.facebook.com/BDEEquinox/","image":"assets/equinox.png","animal":"ours polaire","ecart":48},
-        {"nom":"Sapr'eisti","couleur":"#444655","texte":"white","lien":"https://www.facebook.com/listebdesapreisti","image":"assets/sapreisti.png","animal":"raton laveur"}
+        {"nom":"Equinox","couleur":"#6c358b","texte":"white","liens":{"facebook":"https://www.facebook.com/BDEEquinox/"},"image":"assets/equinox.png","animal":"ours polaire","ecart":48},
+        {"nom":"Sapr'eisti","couleur":"#444655","texte":"white","liens":{"facebook":"https://www.facebook.com/listebdesapreisti"},"image":"assets/sapreisti.png","animal":"raton laveur"}
     ]},
     {"annee":"2017-2018","listes":[
-        {"nom":"Daybreak","couleur":"#740022","texte":"white","lien":"https://www.facebook.com/BDEDaybreak/","image":"assets/daybreak.png","animal":"loup","ecart":36},
-        {"nom":"Savage","couleur":"#2c2a3f","texte":"white","lien":"https://www.facebook.com/ListeBDESavage/","image":"assets/savage.png","animal":"gorille"}
+        {"nom":"Daybreak","couleur":"#740022","texte":"white","liens":{"facebook":"https://www.facebook.com/BDEDaybreak/"},"image":"assets/daybreak.png","animal":"loup","ecart":36},
+        {"nom":"Savage","couleur":"#2c2a3f","texte":"white","liens":{"facebook":"https://www.facebook.com/ListeBDESavage/"},"image":"assets/savage.png","animal":"gorille"}
     ]},
     {"annee":"2016-2017","listes":[
-        {"nom":"Freak Out","couleur":"#1f5e5b","lien":"https://www.facebook.com/bdeEISTI/","image":"assets/freak_out.jpg","animal":"lion","ecart":137},
-        {"nom":"Eiscape","couleur":"#307b45","texte":"white","lien":"https://www.facebook.com/listebdeeiscape/","image":"assets/eiscape.png","animal":"cerf"}
+        {"nom":"Freak Out","couleur":"#1f5e5b","liens":{"facebook":"https://www.facebook.com/bdeEISTI/"},"image":"assets/freak_out.jpg","animal":"lion","ecart":137},
+        {"nom":"Eiscape","couleur":"#307b45","texte":"white","liens":{"facebook":"https://www.facebook.com/listebdeeiscape/"},"image":"assets/eiscape.png","animal":"cerf"}
     ]},
     {"annee":"2015-2016","listes":[
-        {"nom":"Stay High","couleur":"#ffffff","lien":"https://www.facebook.com/BDEStayHigh/","image":"assets/stay_high.png","animal":"chouette","ecart":84},
-        {"nom":"Smart'Iz","couleur":"#15396b","texte":"white","lien":"https://www.facebook.com/Liste-BDE-SmartIz-1595577183991519/","image":"assets/smartiz.jpg","animal":"hamster"}
+        {"nom":"Stay High","couleur":"#ffffff","liens":{"facebook":"https://www.facebook.com/BDEStayHigh/"},"image":"assets/stay_high.png","animal":"chouette","ecart":84},
+        {"nom":"Smart'Iz","couleur":"#15396b","texte":"white","liens":{"facebook":"https://www.facebook.com/Liste-BDE-SmartIz-1595577183991519/"},"image":"assets/smartiz.jpg","animal":"hamster"}
     ]},
     {"annee":"2014-2015","listes":[
-        {"nom":"Make it n'eisti","couleur":"#90293b","texte":"deepskyblue","lien":"https://www.facebook.com/maki.na.908","image":"assets/make_it_neisti.jpg","animal":"aigle","ecart":5},
+        {"nom":"Make it n'eisti","couleur":"#90293b","texte":"deepskyblue","liens":{"facebook":"https://www.facebook.com/maki.na.908"},"image":"assets/make_it_neisti.jpg","animal":"aigle","ecart":5},
         {"nom":"Destiny","image":"assets/destiny.jpg","couleur":"#880000","animal":"robot"}
     ]},
     {"annee":"2013-2014","listes":[
-        {"nom":"be hype","couleur":"#0b1b4c","texte":"white","lien":"https://www.facebook.com/ListeBeHype","image":"assets/be_hype.jpg","animal":"léopard"},
-        {"nom":"FeistiF","couleur":"#00cb00","lien":"https://www.facebook.com/Liste.BDE.FeistiF","image":"assets/feistif.jpg","animal":"perroquet"}
+        {"nom":"be hype","couleur":"#0b1b4c","texte":"white","liens":{"facebook":"https://www.facebook.com/ListeBeHype"},"image":"assets/be_hype.jpg","animal":"léopard"},
+        {"nom":"FeistiF","couleur":"#00cb00","liens":{"facebook":"https://www.facebook.com/Liste.BDE.FeistiF"},"image":"assets/feistif.jpg","animal":"perroquet"}
     ]},
     {"annee":"2012-2013","listes":[
-        {"nom":"Kiss cool","couleur":"darkblue","texte":"white","lien":"https://www.facebook.com/BDE.Eisti.KissCool","image":"assets/kiss_cool.jpg","animal":"yeti et manchot"},
-        {"nom":"Fanteistic","couleur":"#2626c1","lien":"https://www.facebook.com/listebde.fanteistic","texte":"#f1aab2","image":"assets/fanteistic.png"}
+        {"nom":"Kiss cool","couleur":"darkblue","texte":"white","liens":{"facebook":"https://www.facebook.com/BDE.Eisti.KissCool"},"image":"assets/kiss_cool.jpg","animal":"yeti et manchot"},
+        {"nom":"Fanteistic","couleur":"#2626c1","liens":{"facebook":"https://www.facebook.com/listebde.fanteistic"},"texte":"#f1aab2","image":"assets/fanteistic.png"}
     ]},
     {"annee":"2011-2012","listes":[
-        {"nom":"Sismic","couleur":"#590c20","texte":"#f7f25b","lien":"https://www.facebook.com/bde.sismic","image":"assets/sismic.jpg","vote":170,"ecart":15},
-        {"nom":"Virtu'ose","lien":"https://www.journal-officiel.gouv.fr/associations/detail-annonce/associations_b/20100047/1577","vote":155,"image":"assets/virtuose.png"}
+        {"nom":"Sismic","couleur":"#590c20","texte":"#f7f25b","liens":{"facebook":"https://www.facebook.com/bde.sismic"},"image":"assets/sismic.jpg","vote":170,"ecart":15},
+        {"nom":"Virtu'ose","liens":{"web":"https://www.journal-officiel.gouv.fr/associations/detail-annonce/associations_b/20100047/1577"},"vote":155,"image":"assets/virtuose.png"}
     ]},
     {"annee":"2010-2011","listes":[
-        {"nom":"Tasty'N'Trendy","couleur":"#aa0000","lien":"https://www.facebook.com/bde.tastyntrendy","image":"assets/tnt.jpg"},
-        {"nom":"Inspirit","lien":"https://www.facebook.com/INSPRIT","couleur":"#4444dd","image":"assets/inspirit.jpg","animal":"singe"},
+        {"nom":"Tasty'N'Trendy","couleur":"#aa0000","liens":{"facebook":"https://www.facebook.com/bde.tastyntrendy"},"image":"assets/tnt.jpg"},
+        {"nom":"Inspirit","liens":{"facebook":"https://www.facebook.com/INSPRIT"},"couleur":"#4444dd","image":"assets/inspirit.jpg","animal":"singe"},
         {"nom":"Dynasty","image":"assets/dynasty1.png"}
     ]},
     {"annee":"2009-2010","listes":[
-        {"nom":"Sunsation","couleur":"#ffdd00","lien":"https://www.facebook.com/bdeeisti.sunsation","animal":"lapin","image":"assets/sunsation.jpg"},
+        {"nom":"Sunsation","couleur":"#ffdd00","liens":{"facebook":"https://www.facebook.com/bdeeisti.sunsation"},"animal":"lapin","image":"assets/sunsation.jpg"},
         {"nom":"Preistige","couleur":"#000000","texte":"#ff8888","image":"assets/preistige.png"}
     ]},
     {"annee":"2008-2009","listes":[
-        {"nom":"Majeistic","couleur":"#9500a5","lien":"https://www.dailymotion.com/BDE-Majeistic","image":"assets/majeistic.png"},
-        {"nom":"Kaliente","couleur":"#ff8800","texte":"#ffff00","lien":"https://www.facebook.com/liste.kaliente","image":"assets/kaliente.jpg"},
+        {"nom":"Majeistic","couleur":"#9500a5","liens":{"dailymotion":"https://www.dailymotion.com/BDE-Majeistic"},"image":"assets/majeistic.png"},
+        {"nom":"Kaliente","couleur":"#ff8800","texte":"#ffff00","liens":{"facebook":"https://www.facebook.com/liste.kaliente"},"image":"assets/kaliente.jpg"},
         {"nom":"Zhigh-On","votes":41,"couleur":"#ff8800","animal":"tigre"}
     ],"votes":383},
     {"annee":"2007-2008","listes":[
