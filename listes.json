@@ -33,7 +33,7 @@
         {"nom":"Savage","couleur":"#2c2a3f","texte":"white","liens":{"facebook":"https://www.facebook.com/ListeBDESavage/"},"image":"assets/savage.png","animal":"gorille"}
     ]},
     {"annee":"2016-2017","listes":[
-        {"nom":"Freak Out","couleur":"#1f5e5b","liens":{"facebook":"https://www.facebook.com/bdeEISTI/"},"image":"assets/freak_out.jpg","animal":"lion","ecart":137},
+        {"nom":"Freak Out","couleur":"#1f5e5b","liens":{"facebook":"https://www.facebook.com/bdeEISTI/"},"image":"assets/freak_out.jpg","animal":"lion","texte":"#ffaf39","ecart":137},
         {"nom":"Eiscape","couleur":"#307b45","texte":"white","liens":{"facebook":"https://www.facebook.com/listebdeeiscape/"},"image":"assets/eiscape.png","animal":"cerf"}
     ]},
     {"annee":"2015-2016","listes":[
@@ -46,7 +46,7 @@
     ]},
     {"annee":"2013-2014","listes":[
         {"nom":"be hype","couleur":"#0b1b4c","texte":"white","liens":{"facebook":"https://www.facebook.com/ListeBeHype"},"image":"assets/be_hype.jpg","animal":"léopard"},
-        {"nom":"FeistiF","couleur":"#00cb00","liens":{"facebook":"https://www.facebook.com/Liste.BDE.FeistiF"},"image":"assets/feistif.jpg","animal":"perroquet"}
+        {"nom":"FeistiF","couleur":"#00cb00","liens":{"facebook":"https://www.facebook.com/Liste.BDE.FeistiF"},"image":"assets/feistif.jpg","animal":"perroquet","texte":"#00304f"}
     ]},
     {"annee":"2012-2013","listes":[
         {"nom":"Kiss cool","couleur":"darkblue","texte":"white","liens":{"facebook":"https://www.facebook.com/BDE.Eisti.KissCool"},"image":"assets/kiss_cool.jpg","animal":"yeti et manchot"},
@@ -54,7 +54,7 @@
     ]},
     {"annee":"2011-2012","listes":[
         {"nom":"Sismic","couleur":"#590c20","texte":"#f7f25b","liens":{"facebook":"https://www.facebook.com/bde.sismic"},"image":"assets/sismic.jpg","vote":170,"ecart":15},
-        {"nom":"Virtu'ose","liens":{"web":"https://www.journal-officiel.gouv.fr/associations/detail-annonce/associations_b/20100047/1577"},"vote":155,"image":"assets/virtuose.png"}
+        {"nom":"Virtu'ose","liens":{"web":"https://www.journal-officiel.gouv.fr/associations/detail-annonce/associations_b/20100047/1577"},"vote":155,"image":"assets/virtuose.png","texte":"#00c55c"}
     ]},
     {"annee":"2010-2011","listes":[
         {"nom":"Tasty'N'Trendy","couleur":"#aa0000","liens":{"facebook":"https://www.facebook.com/bde.tastyntrendy"},"image":"assets/tnt.jpg"},
