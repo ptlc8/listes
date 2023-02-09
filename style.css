@@ -89,3 +89,31 @@ a {
     border-radius: 0.5em;
     margin: 0.2em;
 }
+
+#contribute {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #272727;
+    color: white;
+    z-index: 50;
+    padding: 1em;
+    text-align: center;
+    border-radius: 0.5em;
+    margin: 2em;
+}
+#contribute a {
+    background-color: yellowgreen;
+    color: black;
+    display: block;
+    margin: .2em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    text-decoration: none;
+}
+@media (max-width: 960px) {
+    #contribute {
+        display: none;
+    }
+}

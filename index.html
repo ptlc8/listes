@@ -10,6 +10,11 @@
     </head>
     <body>
         <div id="listes"></div>
+        <div id="contribute">
+            Tu as de nouvelles informations sur les listes ?<br>N'hésite pas à contribuer !
+            <br/>
+            <a target="_blank" href="https://github.com/ptlc8/listes">Contribuer</a>
+        </div>
         <script>
             sendRequest("GET", "listes.json").then(function(listesJSON){
                 var annees = JSON.parse(listesJSON);
