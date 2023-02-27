@@ -1,6 +1,6 @@
 [
     {"annee":"2023-2024","listes":[
-        {"nom":"Polar","animal":"manchot","liens":{"facebook":"https://www.facebook.com/profile.php?id=100090297700905", "web":"https://liste-polar.fr/","instagram":"https://www.instagram.com/liste.polar/", "tiktok":"https://www.tiktok.com/@liste.polar"},"image":"assets/polar.png","couleur":"#82B496"},
+        {"nom":"Polar","animal":"manchot","liens":{"facebook":"https://www.facebook.com/profile.php?id=100090297700905", "web":"https://liste-polar.fr/","instagram":"https://www.instagram.com/liste.polar/", "tiktok":"https://www.tiktok.com/@liste.polar"},"image":"assets/polar.png","couleur":"#82b496","texte":"#ffbc00"},
         {"nom":"Asteria","animal":"paon","liens":{"facebook":"https://www.facebook.com/profile.php?id=100090078560202&mibextid=LQQJ4d", "web":"https://www.liste-asteria.fr","instagram":"https://www.instagram.com/liste_asteria"},"image":"assets/asteria.png","couleur":"#007aab"}
     ],"unfinished":true},
     {"annee":"2022-2023","listes":[
