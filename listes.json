@@ -1,8 +1,8 @@
 [
     {"annee":"2023-2024","listes":[
-        {"nom":"Polar","animal":"manchot","liens":{"facebook":"https://www.facebook.com/profile.php?id=100090297700905", "web":"https://liste-polar.fr/","instagram":"https://www.instagram.com/liste.polar/", "tiktok":"https://www.tiktok.com/@liste.polar"},"image":"assets/polar.png","couleur":"#82b496","texte":"#ffbc00"},
-        {"nom":"Asteria","animal":"paon","liens":{"facebook":"https://www.facebook.com/profile.php?id=100090078560202&mibextid=LQQJ4d", "web":"https://www.liste-asteria.fr","instagram":"https://www.instagram.com/liste_asteria"},"image":"assets/asteria.png","couleur":"#007aab"}
-    ],"unfinished":true},
+        {"nom":"Asteria","animal":"paon","liens":{"facebook":"https://www.facebook.com/profile.php?id=100090078560202&mibextid=LQQJ4d", "web":"https://www.liste-asteria.fr","instagram":"https://www.instagram.com/liste_asteria"},"image":"assets/asteria.png","couleur":"#007aab","votes":178,"ecart":51},
+        {"nom":"Polar","animal":"manchot","liens":{"facebook":"https://www.facebook.com/profile.php?id=100090297700905", "web":"https://liste-polar.fr/","instagram":"https://www.instagram.com/liste.polar/", "tiktok":"https://www.tiktok.com/@liste.polar"},"image":"assets/polar.png","couleur":"#82b496","texte":"#ffbc00","votes":127}
+    ],"unfinished":false,"votes":305},
     {"annee":"2022-2023","listes":[
         {"nom":"Blackpearl","animal":"renard","liens":{"facebook":"https://www.facebook.com/listeblackpearl"},"couleur":"#ff786b","image":"assets/blackpearl.png","ecart":86,"votes":198},
         {"nom":"Wanted","liens":{"facebook":"https://www.facebook.com/ListeBDEWanted", "instagram":"https://www.instagram.com/listebdewanted", "web":"https://liste-wanted.fr"},"couleur":"#724d41","texte":"#dddddd","image":"assets/wanted.png","animal":"bison","votes":112},
