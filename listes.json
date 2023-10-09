@@ -35,7 +35,7 @@
     ]},
     {"annee":"2016-2017","listes":[
         {"nom":"Freak Out","couleur":"#1f5e5b","liens":{"facebook":"https://www.facebook.com/bdeEISTI/"},"image":"assets/freak_out.jpg","animal":"lion","texte":"#ffaf39","ecart":137},
-        {"nom":"Eiscape","couleur":"#307b45","texte":"white","liens":{"facebook":"https://www.facebook.com/listebdeeiscape/"},"image":"assets/eiscape.png","animal":"cerf"}
+        {"nom":"Eiscape","couleur":"#307b45","texte":"white","liens":{"facebook":"https://www.facebook.com/listebdeeiscape/"},"image":"assets/eiscape.png","animal":"cerf","musique":"Major Lazer – Light it Up"}
     ]},
     {"annee":"2015-2016","listes":[
         {"nom":"Stay High","couleur":"#ffffff","liens":{"facebook":"https://www.facebook.com/BDEStayHigh/"},"image":"assets/stay_high.png","animal":"chouette","ecart":84},
@@ -47,74 +47,85 @@
     ]},
     {"annee":"2013-2014","listes":[
         {"nom":"be hype","couleur":"#0b1b4c","texte":"white","liens":{"facebook":"https://www.facebook.com/ListeBeHype"},"image":"assets/be_hype.jpg","animal":"léopard"},
-        {"nom":"FeistiF","couleur":"#00cb00","liens":{"facebook":"https://www.facebook.com/Liste.BDE.FeistiF"},"image":"assets/feistif.jpg","animal":"perroquet","texte":"#00304f"}
+        {"nom":"FeistiF","couleur":"#00cb00","liens":{"facebook":"https://www.facebook.com/Liste.BDE.FeistiF","dailymotion":"https://www.dailymotion.com/Liste-BDE-FeistiF"},"image":"assets/feistif.jpg","animal":"perroquet","texte":"#00304f"}
     ]},
     {"annee":"2012-2013","listes":[
         {"nom":"Kiss cool","couleur":"darkblue","texte":"white","liens":{"facebook":"https://www.facebook.com/BDE.Eisti.KissCool"},"image":"assets/kiss_cool.jpg","animal":"yeti et manchot"},
         {"nom":"Fanteistic","couleur":"#2626c1","liens":{"facebook":"https://www.facebook.com/listebde.fanteistic"},"texte":"#f1aab2","image":"assets/fanteistic.png"}
     ]},
     {"annee":"2011-2012","listes":[
-        {"nom":"Sismic","couleur":"#590c20","texte":"#f7f25b","liens":{"facebook":"https://www.facebook.com/bde.sismic"},"image":"assets/sismic.jpg","vote":170,"ecart":15},
+        {"nom":"Sismic","couleur":"#590c20","texte":"#f7f25b","liens":{"facebook":"https://www.facebook.com/bde.sismic","dailymotion":"https://www.dailymotion.com/listebdesismic"},"image":"assets/sismic.jpg","vote":170,"ecart":15},
         {"nom":"Virtu'ose","liens":{"web":"https://www.journal-officiel.gouv.fr/associations/detail-annonce/associations_b/20100047/1577"},"vote":155,"image":"assets/virtuose.png","texte":"#00c55c"}
     ]},
     {"annee":"2010-2011","listes":[
-        {"nom":"Tasty'N'Trendy","couleur":"#aa0000","liens":{"facebook":"https://www.facebook.com/bde.tastyntrendy"},"image":"assets/tnt.jpg"},
+        {"nom":"Tasty'N'Trendy","couleur":"#aa0000","liens":{"facebook":"https://www.facebook.com/bde.tastyntrendy","dailymotion":"https://www.dailymotion.com/tastyNtrendy","dailymotion2":"https://www.dailymotion.com/yohanr88"},"image":"assets/tnt.jpg","musique":"Klaas - Our Own Way"},
         {"nom":"Inspirit","liens":{"facebook":"https://www.facebook.com/INSPRIT"},"couleur":"#4444dd","image":"assets/inspirit.jpg","animal":"singe"},
         {"nom":"Dynasty","image":"assets/dynasty1.png"}
     ]},
     {"annee":"2009-2010","listes":[
-        {"nom":"Sunsation","couleur":"#ffdd00","liens":{"facebook":"https://www.facebook.com/bdeeisti.sunsation"},"animal":"lapin","image":"assets/sunsation.jpg"},
-        {"nom":"Preistige","couleur":"#000000","texte":"#ff8888","image":"assets/preistige.png"}
+        {"nom":"Sunsation","couleur":"#ffdd00","liens":{"facebook":"https://www.facebook.com/bdeeisti.sunsation","dailymotion":"https://www.dailymotion.com/Liste_BDE_SunSation"},"animal":"lapin","image":"assets/sunsation.jpg"},
+        {"nom":"Preistige","couleur":"#e81c97","texte":"#ffffff","image":"assets/preistige.png","liens":{"dailymotion":"https://www.dailymotion.com/bde-preistige"}}
     ]},
     {"annee":"2008-2009","listes":[
         {"nom":"Majeistic","couleur":"#9500a5","liens":{"dailymotion":"https://www.dailymotion.com/BDE-Majeistic"},"image":"assets/majeistic.png"},
         {"nom":"Kaliente","couleur":"#ff8800","texte":"#ffff00","liens":{"facebook":"https://www.facebook.com/liste.kaliente"},"image":"assets/kaliente.jpg"},
-        {"nom":"Zhigh-On","votes":41,"couleur":"#ff8800","animal":"tigre"}
+        {"nom":"Zhigh-On","votes":41,"couleur":"#ff8800","animal":"tigre"},
+        {"nom":"Kadance ?"}
     ],"votes":383},
     {"annee":"2007-2008","listes":[
         {"nom":"Dyna'mix","image":"assets/dynamix.jpg","couleur":"#32a4ed","texte":"#ffffff"},
-        {"nom":"Tonik","image":"assets/tonik.jpg","couleur":"#1a42a4","texte":"#e6c300"}
+        {"nom":"Tonik","image":"assets/tonik.jpg","couleur":"#1a42a4","texte":"#e6c300","liens":{"dailymotion":"https://www.dailymotion.com/BDE_Tonik"}}
     ]},
     {"annee":"2006-2007","listes":[
-        {"nom":"Pulsion","couleur":"#ff6666"},
-        {"nom":"??"}
+        {"nom":"Pulsion","couleur":"#750010","image":"assets/pulsion.jpg","texte":"#FFCC00"},
+        {"nom":"Premium","couleur":"#000000","image":"assets/premium.jpg","texte":"#ffffff"}
     ]},
     {"annee":"2005-2006","listes":[
-        {"nom":"Samba","couleur":"#008800"},
-        {"nom":"??"}
+        {"nom":"Samba","couleur":"#008001","image":"assets/samba.jpg"},
+        {"nom":"Extaz"}
     ]},
     {"annee":"2004-2005","listes":[
         {"nom":"Tribal","couleur":"#000000","texte":"#ffffff"},
-        {"nom":"??"}
+        {"nom":"Typhon ?"}
     ]},
     {"annee":"2003-2004","listes":[
         {"nom":"Fusion","couleur":"#ff6666"},
-        {"nom":"??"}
+        {"nom":"EISTI'mate"}
     ]},
     {"annee":"2002-2003","listes":[
-        {"nom":"E-motion"},
+        {"nom":"E-motion","image":"assets/e_motion.jpg"},
         {"nom":"Feistiv'all"},
         {"nom":"Pleine Lune"}
     ]},
     {"annee":"2001-2002","listes":[
-        {"nom":"Taste it"},
-        {"nom":"??"}
-    ]},
+        {"nom":"Taste it","image":"assets/taste_it.jpg","liens":{"web":"https://web.archive.org/web/20010524234955fw_/http://tasteit.ifrance.com/tasteit/menu.html"},"votes":158,"ecart":59},
+        {"nom":"Vertige 41","image":"assets/vertige_41.jpg","votes":99},
+        {"nom":"T'ESITI cool","image":"assets/tesiti_cool.jpg"}
+    ],"votes":264,"blancs":7},
     {"annee":"2000-2001","listes":[
-        {"nom":"Ace-team"},
+        {"nom":"Ace'Team"},
         {"nom":"??"}
     ]},
     {"annee":"1999-2000","listes":[
-        {"nom":"On'EISTI","votes":169,"ecart":68  },
+        {"nom":"On'EISTI","votes":169,"ecart":68,"image":"assets/oneisti.jpg"},
         {"nom":"Brainwave","votes":101},
-        {"nom":"EISTI'm","votes":35},
-        {"nom":"Pos'EISTI've","votes":0}
+        {"nom":"EISTI'm","votes":35,"image":"assets/eistim.jpg"},
+        {"nom":"Pos'EISTI've","votes":0,"image":"assets/poseistive.jpg"},
+        {"nom":"2001 Odyssée de l'EISTI","image":"assets/2001_odyssee_de_leisti.jpg"},
+        {"nom":"Mieux mieux 200000001","image":"assets/mieux_mieux_2000001.jpg"}
     ],"votes":311,"blancs":6},
     {"annee":"1998-1999","listes":[
+        {"nom":"L'EISTIième Dimension (Objectif 2000)"},
         {"nom":"F'EISTIval"},
-        {"nom":"Friends"},
-        {"nom":"Objectif 2000"}
-    ],"unfinished":true},
+        {"nom":"Friends"}
+    ]},
+    {"annee":"1997-1998","listes":[
+        {"nom":"Planète EISTI"},
+        {"nom":"EISTImpson ?","image":"assets/eistimpson.gif","liens":{"web":"https://web.archive.org/web/19970730193859/http://www.eisti.fr/~bde/membres.html"}}
+    ]},
+    {"annee":"1996-1997","listes":[
+        {"nom":"Basic EISTInct ?"}
+    ]},
     {"annee":"1995-1996","listes":[
         {"nom":"Los amigos"},
         {"nom":"Happy EISTI"}
