@@ -1,37 +1,37 @@
 [
     {"annee":"2023-2024","listes":[
-        {"nom":"Asteria","animal":"paon","liens":{"facebook":"https://www.facebook.com/profile.php?id=100090078560202&mibextid=LQQJ4d", "web":"https://www.liste-asteria.fr","instagram":"https://www.instagram.com/liste_asteria"},"image":"assets/asteria.png","couleur":"#007aab","votes":178,"ecart":51},
-        {"nom":"Polar","animal":"manchot","liens":{"facebook":"https://www.facebook.com/profile.php?id=100090297700905", "web":"https://liste-polar.fr/","instagram":"https://www.instagram.com/liste.polar/", "tiktok":"https://www.tiktok.com/@liste.polar"},"image":"assets/polar.png","couleur":"#82b496","texte":"#ffbc00","votes":127},
+        {"nom":"Asteria","animal":"paon","liens":{"facebook":"https://www.facebook.com/profile.php?id=100090078560202", "web":"https://www.liste-asteria.fr","instagram":"https://www.instagram.com/bde__asteria"},"image":"assets/asteria.png","couleur":"#007aab","votes":178,"ecart":51,"musique":"Usher - More"},
+        {"nom":"Polar","animal":"manchot","liens":{"facebook":"https://www.facebook.com/profile.php?id=100090297700905", "web":"https://liste-polar.fr/","instagram":"https://www.instagram.com/les_polar", "tiktok":"https://www.tiktok.com/@liste.polar"},"image":"assets/polar.png","couleur":"#82b496","texte":"#ffbc00","votes":127,"musique":"Black Eyed Peas - Pump It"},
         {"nom":"Primal","animal":"singe","image":"assets/primal.jpg","couleur":"#000000","texte":"#fad500"}
     ],"unfinished":false,"votes":305},
     {"annee":"2022-2023","listes":[
-        {"nom":"Blackpearl","animal":"renard","liens":{"facebook":"https://www.facebook.com/listeblackpearl"},"couleur":"#ff786b","image":"assets/blackpearl.png","ecart":86,"votes":198},
-        {"nom":"Wanted","liens":{"facebook":"https://www.facebook.com/ListeBDEWanted", "instagram":"https://www.instagram.com/listebdewanted", "web":"https://liste-wanted.fr"},"couleur":"#724d41","texte":"#dddddd","image":"assets/wanted.png","animal":"bison","votes":112},
-        {"nom":"Hydra","animal":"poulpe","liens":{"facebook":"https://www.facebook.com/listebdehydra"},"couleur":"#53005a","image":"assets/hydra.jpg","texte":"#ffffff"}
+        {"nom":"Blackpearl","animal":"renard","liens":{"facebook":"https://www.facebook.com/listeblackpearl"},"couleur":"#ff786b","image":"assets/blackpearl.png","ecart":86,"votes":198,"musique":"Taio Cruz - Hangover"},
+        {"nom":"Wanted","liens":{"facebook":"https://www.facebook.com/ListeBDEWanted", "instagram":"https://www.instagram.com/listebdewanted", "web":"https://liste-wanted.fr"},"couleur":"#724d41","texte":"#dddddd","image":"assets/wanted.png","animal":"bison","votes":112,"musique":"Macklemore - Can't hold us"},
+        {"nom":"Hydra","animal":"poulpe","liens":{"facebook":"https://www.facebook.com/listebdehydra"},"couleur":"#53005a","image":"assets/hydra.jpg","texte":"#ffffff","musique":"Shakira - Waka waka"}
     ],"votes":312},
     {"annee":"2021-2022","listes":[
-        {"nom":"Kheops","couleur":"#061b2e","texte":"white","liens":{"facebook":"https://www.facebook.com/BDEKheops"},"image":"assets/kheops.png","animal":"faucon","ecart":12},
-        {"nom":"Kimera","couleur":"#9c1616","texte":"#c6aa67","liens":{"facebook":"https://www.facebook.com/listebdekimera"},"image":"assets/kimera.png","animal":"cerbère"},
-        {"nom":"Yakuza","couleur":"#ffcaa6","liens":{"facebook":"https://www.facebook.com/ListeYakuza"},"image":"assets/yakuza.png","animal":"panda"},
+        {"nom":"Kheops","couleur":"#061b2e","texte":"white","liens":{"facebook":"https://www.facebook.com/BDEKheops"},"image":"assets/kheops.png","animal":"faucon","ecart":12,"musique":"GALA - Freed from desire"},
+        {"nom":"Kimera","couleur":"#9c1616","texte":"#c6aa67","liens":{"facebook":"https://www.facebook.com/listebdekimera"},"image":"assets/kimera.png","animal":"cerbère","musique":"Taio Cruz - Dynamite"},
+        {"nom":"Yakuza","couleur":"#ffcaa6","liens":{"facebook":"https://www.facebook.com/ListeYakuza"},"image":"assets/yakuza.png","animal":"panda","musique":"Italobrothers - Stamp On The Ground"},
         {"nom":"Rift","couleur":"#2a51dc","image":"assets/rift.png","animal":"axolot"}
     ]},
     {"annee":"2020-2021","listes":[
-        {"nom":"Drakkar","couleur":"#10532a","texte":"white","liens":{"facebook":"https://www.facebook.com/BDEDrakkar/"},"image":"assets/drakkar.jpg","animal":"bélier","ecart":51},
-        {"nom":"Moonlight","couleur":"#6ccfef","liens":{"facebook":"https://www.facebook.com/ListeBDEMoonlight/"},"image":"assets/moonlight.png","animal":"tigre blanc"},
-        {"nom":"Genesis","couleur":"#ffb533","liens":{"facebook":"https://www.facebook.com/ListeGenesis/"},"image":"assets/genesis.png","animal":"springbok"}
+        {"nom":"Drakkar","couleur":"#10532a","texte":"white","liens":{"facebook":"https://www.facebook.com/BDEDrakkar/"},"image":"assets/drakkar.jpg","animal":"bélier","ecart":51,"musique":"Pitbull - Timber"},
+        {"nom":"Moonlight","couleur":"#6ccfef","liens":{"facebook":"https://www.facebook.com/ListeBDEMoonlight/"},"image":"assets/moonlight.png","animal":"tigre blanc","musique":"Avicii -  The nights"},
+        {"nom":"Genesis","couleur":"#ffb533","liens":{"facebook":"https://www.facebook.com/ListeGenesis/"},"image":"assets/genesis.png","animal":"springbok","musique":"K'NAAN - Wavin' Flag"}
     ]},
     {"annee":"2019-2020","listes":[
-        {"nom":"Run Wild","couleur":"#cee6d0","texte":"#052b46","liens":{"facebook":"https://www.facebook.com/BDERunWild/"},"image":"assets/run_wild.jpg","animal":"rhinocéros","ecart":113},
-        {"nom":"Reborn","couleur":"#ff0012","liens":{"facebook":"https://www.facebook.com/ListeReborn/"},"image":"assets/reborn.png","animal":"phoenix"},
-        {"nom":"Dynasty","couleur":"#ded4d7","liens":{"facebook":"https://www.facebook.com/ListeDynasty/"},"image":"assets/dynasty.jpg","animal":"panthère noire"}
+        {"nom":"Run Wild","couleur":"#cee6d0","texte":"#052b46","liens":{"facebook":"https://www.facebook.com/BDERunWild/"},"image":"assets/run_wild.jpg","animal":"rhinocéros","ecart":113,"musique":""},
+        {"nom":"Reborn","couleur":"#ff0012","liens":{"facebook":"https://www.facebook.com/ListeReborn/"},"image":"assets/reborn.png","animal":"phoenix","musique":"Rise - Walk of the Earth"},
+        {"nom":"Dynasty","couleur":"#ded4d7","liens":{"facebook":"https://www.facebook.com/ListeDynasty/"},"image":"assets/dynasty.jpg","animal":"panthère noire","musique":"Fergie - A Little Party Never Killed Nobody"}
     ]},
     {"annee":"2018-2019","listes":[
-        {"nom":"Equinox","couleur":"#6c358b","texte":"white","liens":{"facebook":"https://www.facebook.com/BDEEquinox/"},"image":"assets/equinox.png","animal":"ours polaire","ecart":48},
-        {"nom":"Sapr'eisti","couleur":"#444655","texte":"white","liens":{"facebook":"https://www.facebook.com/listebdesapreisti"},"image":"assets/sapreisti.png","animal":"raton laveur"}
+        {"nom":"Equinox","couleur":"#6c358b","texte":"white","liens":{"facebook":"https://www.facebook.com/BDEEquinox/"},"image":"assets/equinox.png","animal":"ours polaire","ecart":48,"musique":"Axwell - More than you know"},
+        {"nom":"Sapr'eisti","couleur":"#444655","texte":"white","liens":{"facebook":"https://www.facebook.com/listebdesapreisti"},"image":"assets/sapreisti.png","animal":"raton laveur","musique":"Martin Solveig - +1"}
     ]},
     {"annee":"2017-2018","listes":[
-        {"nom":"Daybreak","couleur":"#740022","texte":"white","liens":{"facebook":"https://www.facebook.com/BDEDaybreak/"},"image":"assets/daybreak.png","animal":"loup","ecart":36},
-        {"nom":"Savage","couleur":"#2c2a3f","texte":"white","liens":{"facebook":"https://www.facebook.com/ListeBDESavage/"},"image":"assets/savage.png","animal":"gorille"}
+        {"nom":"Daybreak","couleur":"#740022","texte":"white","liens":{"facebook":"https://www.facebook.com/BDEDaybreak/"},"image":"assets/daybreak.png","animal":"loup","ecart":36,"musique":"Galantis - No Money"},
+        {"nom":"Savage","couleur":"#2c2a3f","texte":"white","liens":{"facebook":"https://www.facebook.com/ListeBDESavage/"},"image":"assets/savage.png","animal":"gorille","musique":"Don Diablo - Cutting Shapes"}
     ]},
     {"annee":"2016-2017","listes":[
         {"nom":"Freak Out","couleur":"#1f5e5b","liens":{"facebook":"https://www.facebook.com/bdeEISTI/"},"image":"assets/freak_out.jpg","animal":"lion","texte":"#ffaf39","ecart":137},
