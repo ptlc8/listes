@@ -21,7 +21,7 @@
         {"nom":"Genesis","couleur":"#ffb533","liens":{"facebook":"https://www.facebook.com/ListeGenesis/"},"image":"assets/genesis.png","animal":"springbok","musique":"K'NAAN - Wavin' Flag"}
     ]},
     {"annee":"2019-2020","listes":[
-        {"nom":"Run Wild","couleur":"#cee6d0","texte":"#052b46","liens":{"facebook":"https://www.facebook.com/BDERunWild/"},"image":"assets/run_wild.jpg","animal":"rhinocéros","ecart":113,"musique":""},
+        {"nom":"Run Wild","couleur":"#cee6d0","texte":"#052b46","liens":{"facebook":"https://www.facebook.com/BDERunWild/"},"image":"assets/run_wild.jpg","animal":"rhinocéros","ecart":113,"musique":"Sean Paul - Temperature"},
         {"nom":"Reborn","couleur":"#ff0012","liens":{"facebook":"https://www.facebook.com/ListeReborn/"},"image":"assets/reborn.png","animal":"phoenix","musique":"Rise - Walk of the Earth"},
         {"nom":"Dynasty","couleur":"#ded4d7","liens":{"facebook":"https://www.facebook.com/ListeDynasty/"},"image":"assets/dynasty.jpg","animal":"panthère noire","musique":"Fergie - A Little Party Never Killed Nobody"}
     ]},
