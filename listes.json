@@ -80,7 +80,8 @@
                 "liens": {
                     "facebook": "https://www.facebook.com/ListeBDEWanted",
                     "instagram": "https://www.instagram.com/listebdewanted",
-                    "web": "https://liste-wanted.fr"
+                    "web": "https://liste-wanted.fr",
+                    "youtube": "https://www.youtube.com/@listebdewanted8021"
                 },
                 "couleur": "#724d41",
                 "texte": "#dddddd",
@@ -229,7 +230,8 @@
                 "couleur": "#6c358b",
                 "texte": "white",
                 "liens": {
-                    "facebook": "https://www.facebook.com/BDEEquinox/"
+                    "facebook": "https://www.facebook.com/BDEEquinox/",
+                    "youtube": "https://www.youtube.com/@bdeequinox5835"
                 },
                 "image": "assets/equinox.png",
                 "animal": "ours polaire",
@@ -257,7 +259,8 @@
                 "couleur": "#740022",
                 "texte": "white",
                 "liens": {
-                    "facebook": "https://www.facebook.com/BDEDaybreak/"
+                    "facebook": "https://www.facebook.com/BDEDaybreak/",
+                    "youtube": "https://www.youtube.com/@bdedaybreak6213"
                 },
                 "image": "assets/daybreak.png",
                 "animal": "loup",
@@ -284,7 +287,8 @@
                 "nom": "Freak Out",
                 "couleur": "#1f5e5b",
                 "liens": {
-                    "facebook": "https://www.facebook.com/bdeEISTI/"
+                    "facebook": "https://www.facebook.com/bdeEISTI/",
+                    "youtube": "https://www.youtube.com/@listebdefreakout4344"
                 },
                 "image": "assets/freak_out.jpg",
                 "animal": "lion",
@@ -296,7 +300,8 @@
                 "couleur": "#307b45",
                 "texte": "white",
                 "liens": {
-                    "facebook": "https://www.facebook.com/listebdeeiscape/"
+                    "facebook": "https://www.facebook.com/listebdeeiscape/",
+                    "youtube": "https://www.youtube.com/@listebdeeiscape2425"
                 },
                 "image": "assets/eiscape.png",
                 "animal": "cerf",
@@ -337,7 +342,8 @@
                 "couleur": "#90293b",
                 "texte": "deepskyblue",
                 "liens": {
-                    "facebook": "https://www.facebook.com/maki.na.908"
+                    "facebook": "https://www.facebook.com/maki.na.908",
+                    "youtube": "https://www.youtube.com/@listebdemakeitneisti8701"
                 },
                 "image": "assets/make_it_neisti.jpg",
                 "animal": "aigle",
@@ -359,7 +365,8 @@
                 "couleur": "#0b1b4c",
                 "texte": "white",
                 "liens": {
-                    "facebook": "https://www.facebook.com/ListeBeHype"
+                    "facebook": "https://www.facebook.com/ListeBeHype",
+                    "youtube": "https://www.youtube.com/@ListeBeHype"
                 },
                 "image": "assets/be_hype.jpg",
                 "animal": "léopard"
