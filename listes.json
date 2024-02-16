@@ -11,8 +11,16 @@
                 "couleur": "#ff508b"
             },
             {
-                "nom": "Neon",
-                "couleur": "#cdff23"
+                "nom": "Néon",
+                "animal": "tortue",
+                "liens": {
+                    "facebook": "https://www.facebook.com/profile.php?id=61556156354928",
+                    "web": "https://liste-neon.fr/",
+                    "instagram": "https://www.instagram.com/liste_bde_neon/"
+                },
+                "image": "assets/neon.png",
+                "couleur": "#b32821",
+                "musique": "Nicki Minaj - Starships"
             }
         ],
         "unfinished": true
