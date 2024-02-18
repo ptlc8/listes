@@ -4,7 +4,17 @@
         "listes": [
             {
                 "nom": "Sherkan",
-                "couleur": "#19a825"
+                "animal" :"Tigre à dents de sabre",
+                "liens": {
+                    "facebook": "https://www.facebook.com/profile.php?id=61556432252425",
+                    "web": "https://liste-sherkan.fr/",
+                    "instagram": "https://www.instagram.com/liste_bde_sherkan/",
+                    "youtube": "https://www.youtube.com/@Liste_Sherkan",
+                    "tiktok": "https://www.tiktok.com/@liste_bde_sherkan"
+                },
+                "image": "assets/Sherkan.png",
+                "musique": "Jennifer Lopez - Let's Get Loud",
+                "couleur": "#0a3633"
             },
             {
                 "nom": "Flamingo",
