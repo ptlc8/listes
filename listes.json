@@ -14,7 +14,8 @@
                 },
                 "image": "assets/Sherkan.png",
                 "musique": "Jennifer Lopez - Let's Get Loud",
-                "couleur": "#0a3633"
+                "couleur": "#0a3633",
+                "texte": "#ffffff"
             },
             {
                 "nom": "Flamingo",
