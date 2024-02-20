@@ -19,7 +19,16 @@
             },
             {
                 "nom": "Flamingo",
-                "couleur": "#ff508b"
+                "animal": "Flamand rose",
+                "liens": {
+                    "facebook": "https://www.facebook.com/profile.php?id=61556246830282",
+                    "web": "https://liste-flamingo.fr/",
+                    "instagram": "https://www.instagram.com/liste_flamingo/",
+                    "tiktok": "https://www.tiktok.com/@liste_flamingo"
+                },
+                "image": "assets/Flamingo.png",
+                "couleur": "#ff508b",
+                "musique": "Loona - Vamos a la Playa"
             },
             {
                 "nom": "Néon",
