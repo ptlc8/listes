@@ -259,7 +259,8 @@
                 "texte": "white",
                 "liens": {
                     "facebook": "https://www.facebook.com/BDEEquinox/",
-                    "youtube": "https://www.youtube.com/@bdeequinox5835"
+                    "youtube": "https://www.youtube.com/@bdeequinox5835",
+                    "twitter": "https://twitter.com/BDEEquinox"
                 },
                 "image": "assets/equinox.png",
                 "animal": "ours polaire",
@@ -288,7 +289,8 @@
                 "texte": "white",
                 "liens": {
                     "facebook": "https://www.facebook.com/BDEDaybreak/",
-                    "youtube": "https://www.youtube.com/@bdedaybreak6213"
+                    "youtube": "https://www.youtube.com/@bdedaybreak6213",
+                    "twitter": "https://twitter.com/bdedaybreak"
                 },
                 "image": "assets/daybreak.png",
                 "animal": "loup",
@@ -300,7 +302,8 @@
                 "couleur": "#2c2a3f",
                 "texte": "white",
                 "liens": {
-                    "facebook": "https://www.facebook.com/ListeBDESavage/"
+                    "facebook": "https://www.facebook.com/ListeBDESavage/",
+                    "twitter": "https://twitter.com/ListeBDESavage"
                 },
                 "image": "assets/savage.png",
                 "animal": "gorille",
@@ -316,7 +319,8 @@
                 "couleur": "#1f5e5b",
                 "liens": {
                     "facebook": "https://www.facebook.com/bdeEISTI/",
-                    "youtube": "https://www.youtube.com/@listebdefreakout4344"
+                    "youtube": "https://www.youtube.com/@listebdefreakout4344",
+                    "twitter": "https://twitter.com/BDEeisti"
                 },
                 "image": "assets/freak_out.jpg",
                 "animal": "lion",
@@ -371,7 +375,8 @@
                 "texte": "deepskyblue",
                 "liens": {
                     "facebook": "https://www.facebook.com/maki.na.908",
-                    "youtube": "https://www.youtube.com/@listebdemakeitneisti8701"
+                    "youtube": "https://www.youtube.com/@listebdemakeitneisti8701",
+                    "twitter": "https://twitter.com/MakeItNEisti"
                 },
                 "image": "assets/make_it_neisti.jpg",
                 "animal": "aigle",
