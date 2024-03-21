@@ -15,7 +15,9 @@
                 "image": "assets/Sherkan.png",
                 "musique": "Jennifer Lopez - Let's Get Loud",
                 "couleur": "#0a3633",
-                "texte": "#ffffff"
+                "texte": "#ffffff",
+                "votes": 207,
+                "ecart": 105
             },
             {
                 "nom": "Flamingo",
@@ -28,7 +30,8 @@
                 },
                 "image": "assets/Flamingo.png",
                 "couleur": "#ff508b",
-                "musique": "Loona - Vamos a la Playa"
+                "musique": "Loona - Vamos a la Playa",
+                "votes": 102
             },
             {
                 "nom": "Néon",
@@ -43,7 +46,8 @@
                 "musique": "Nicki Minaj - Starships"
             }
         ],
-        "unfinished": true
+        "unfinished": false,
+        "votes": 309
     },
     {
         "annee": "2023-2024",
