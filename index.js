@@ -2,7 +2,9 @@ window.addEventListener("load", () => {
     fetch("listes.json").then(res => res.json()).then(annees => {
         var listesDiv = document.getElementById("listes");
         for (let annee of annees) {
-            listesDiv.appendChild(annee.unfinished ? createElement("div", { className: "annee" }, annee.annee) : createElement("div", { className: "annee", style: { backgroundColor: annee.listes[0].couleur, color: annee.listes[0].texte } }, annee.annee + " - BDE " + annee.listes[0].nom));
+            listesDiv.appendChild(annee.unfinished
+                ? createElement("div", { className: "annee" }, annee.annee)
+                : createElement("div", { className: "annee", style: { backgroundColor: annee.listes[0].couleur, color: annee.listes[0].texte } }, annee.annee + " - BDE " + annee.listes[0].nom + (annee.votes ? " - " + annee.votes + " votants" : "")));
             listesDiv.appendChild(createElement("div", { className: "listes", title: annee.annee }, annee.listes.map(liste => {
                 return createElement("div", { style: { backgroundColor: liste.couleur, color: liste.texte } }, [
                     liste.image ? createElement("img", { src: liste.image }) : "",
@@ -40,9 +42,9 @@ function popupListe(liste) {
     }));
 }
 
-function createElement(tag, properties={}, inner=[], eventListeners={}) {
+function createElement(tag, properties = {}, inner = [], eventListeners = {}) {
     let el = document.createElement(tag);
-    for (let p of Object.keys(properties)) if (p!="style" && p!="dataset") el[p] = properties[p];
+    for (let p of Object.keys(properties)) if (p != "style" && p != "dataset") el[p] = properties[p];
     if (properties.style) for (let p of Object.keys(properties.style)) el.style[p] = properties.style[p];
     if (properties.dataset) for (let p of Object.keys(properties.dataset)) el.dataset[p] = properties.dataset[p];
     if (typeof inner == "object") for (let i of inner) el.appendChild(typeof i == "string" ? document.createTextNode(i) : i);
