@@ -530,6 +530,7 @@
             {
                 "nom": "Majeistic",
                 "couleur": "#9500a5",
+                "texte": "#ffffff",
                 "liens": {
                     "dailymotion": "https://www.dailymotion.com/BDE-Majeistic"
                 },
@@ -549,9 +550,6 @@
                 "votes": 41,
                 "couleur": "#ff8800",
                 "animal": "tigre"
-            },
-            {
-                "nom": "Kadance ?"
             }
         ],
         "votes": 383
