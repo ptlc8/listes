@@ -62,6 +62,7 @@
                 },
                 "image": "assets/asteria.png",
                 "couleur": "#007aab",
+                "texte": "#ffffff",
                 "votes": 178,
                 "ecart": 51,
                 "musique": "Usher - More"
@@ -587,7 +588,10 @@
                 "nom": "Premium",
                 "couleur": "#000000",
                 "image": "assets/premium.jpg",
-                "texte": "#ffffff"
+                "texte": "#ffffff",
+                "liens": {
+                    "web": "https://web.archive.org/web/20060523084132/http://www.bde-premium.com/"
+                }
             }
         ]
     },
@@ -597,7 +601,10 @@
             {
                 "nom": "Samba",
                 "couleur": "#008001",
-                "image": "assets/samba.jpg"
+                "image": "assets/samba.jpg",
+                "liens": {
+                    "web": "https://web.archive.org/web/20061125165500/http://bdesamba.free.fr/"
+                }
             },
             {
                 "nom": "Extaz"
