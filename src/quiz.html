@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr" data-app="{ quiz: null, annees: null, params: { categories: Object.fromEntries(Object.keys(categories).map(c => [c, true])), amount: 10, anneeMaxIndex: null, anneeMinIndex: 0 } }">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Quiz - Listes BDE eistiennes</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="quiz.css" />
+        <script src="quiz.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/ptlc8/anchovy@0.3.2/src/anchovy.js"></script>
+        <script>
+            fetch("listes.json")
+                .then(res => res.json())
+                .then(annees => {
+                    app.data.annees = annees;
+                    app.data.params.anneeMaxIndex = Math.min(10, annees.length - 1);
+                });
+        </script>
+    </head>
+    <body>
+        <section data-if="!annees" data-update="annees">
+            <article>
+                <center>Chargement...</center>
+            </article>
+        </section>
+        <section data-elif="!quiz" data-update="annees|quiz">
+            <article>
+                <h1>Quiz des listes BDE eistiennes</h1>
+                <fieldset>
+                    <legend>Catégories</legend>
+                    <span data-foreach-category="categories" data-index="id">
+                        <label>
+                            <input type="checkbox" data-model="params.categories[id]" />
+                            <span data-bind="category"></span>
+                        </label>
+                    </span>
+                </fieldset>
+                <div class="row">
+                    <label for="min-year">Entre</label>
+                    <select data-model="params.anneeMaxIndex" id="min-year" data-foreach-annee="annees.slice(+params.anneeMinIndex + 5)" data-index="i" data-update="params.anneeMinIndex">
+                        <option data-bind-value="+i + +params.anneeMinIndex + 5" data-bind="annee.annee"></option>
+                    </select>
+                    <label for="max-year">et</label>
+                    <select data-model="params.anneeMinIndex" id="max-year" data-foreach-annee="annees.slice(0, params.anneeMaxIndex - 4)" data-index="i" data-update="params.anneeMaxIndex">
+                        <option data-bind-value="i" data-bind="annee.annee"></option>
+                    </select>
+                </div>
+                <label for="amount">Nombre de questions :
+                <input type="number" id="amount" data-model="params.amount" min="1" /></label>
+                <button data-on-click="quiz = generateQuiz(annees, params.amount, Object.keys(params.categories).filter(k => params.categories[k]), params.anneeMinIndex, params.anneeMaxIndex)">Commencer</button>
+            </article>
+        </section>
+        <section class="quiz" data-elif="quiz.questions[quiz.progress]" data-with-question="quiz.questions[quiz.progress]" data-update="quiz|quiz.progress" data-style="{ backgroundColor: question.color, color: question.textColor }">
+            <center>
+                Progression : <span data-bind="quiz.progress"></span> / <span data-bind="quiz.questions.length"></span>
+                - 
+                Score : <span data-bind="quiz.score"></span> / <span data-bind="quiz.progress"></span>
+            </center>
+            <div class="question" data-bind="question.question"></div>
+            <div class="answers" data-foreach-answer="question.answers.filter((a, i) => question.answered == null || question.correctAnswer == i)" data-index="i" data-update="question.answered">
+                <button data-bind="answer.text ?? ''" data-style="{ backgroundColor: answer.color, color: answer.textColor }" data-on-click="answerQuiz(quiz, i)"></button>
+            </div>
+        </section>
+        <section data-else>
+            <article data-update="quiz.score|quiz">
+                <center>
+                    Score : <span data-bind="quiz.score"></span> / <span data-bind="quiz.questions.length"></span>
+                </center>
+                <center data-if="quiz.score / quiz.questions.length > 0.95">Trop fort ! 🎉</center>
+                <center data-elif="quiz.score / quiz.questions.length > 0.8">Plutôt pas mal ! 👏</center>
+                <center data-elif="quiz.score / quiz.questions.length > 0.5">Tu te débrouilles bien 👌</center>
+                <center data-elif="quiz.score / quiz.questions.length >= Math.floor(quiz.questions.length / 4)">Peut mieux faire... 🗿</center>
+                <center data-else>Tu es plus nul que si tu avais répondu au hasard 🥶</center>
+                <button data-on-click="quiz = null">Recommencer</button>
+                <button data-on-click="location.href = '.'">Réviser</button>
+            </article>
+        </section>
+    </body>
+</html>

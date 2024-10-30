@@ -1,0 +1,141 @@
+header {
+    position: relative;
+    padding: .1em 1em 1em 1em;
+    text-align: center;
+    background-color: var(--bg-color);
+    border-radius: 0 0 .5em .5em;
+    margin-bottom: -.5em;
+    box-shadow: rgba(0, 0, 0, .5) 4px 4px 4px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: .5em;
+}
+nav > * {
+    min-width: 6em;
+    padding: 0.5em;
+    background-color: var(--reverse-bg-color);
+    color: var(--reverse-text-color);
+    border-radius: 0.5em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.listes {
+    display: flex;
+    flex-wrap: wrap;
+}
+.listes > * {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 0;
+    position: relative;
+    cursor: pointer;
+}
+.listes > :not([style*="background"]) {
+    border-top: var(--border-color) 1px solid;
+    border-right: var(--border-color) 1px solid;
+}
+.listes img {
+    max-height: 10em;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.listes .nom {
+    margin: 0;
+    font-size: 2em;
+    font-weight: inherit;
+}
+.listes .ecart {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 8px;
+    font-size: 2em;
+}
+.listes .warning {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1.2em;
+    margin: 8px;
+    padding: 4px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 1em;
+    line-height: 1.2;
+    overflow: hidden;
+    line-break: anywhere;
+}
+.annee {
+    margin: 0;
+    padding: .5em;
+    text-align: center;
+    font-size: 1em;
+    font-weight: inherit;
+}
+.annee:not([style*="background"]) {
+    border-top: 1px solid var(--text-color);
+}
+:first-child > .annee {
+    padding-top: 1em;
+}
+
+.popup-wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(.5, .5, .5, .4);
+    z-index: 100;
+}
+.popup {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 40%;
+    min-height: 60%;
+    max-height: calc(90% - 2em);
+    overflow: auto;
+    background-color: var(--bg-color);
+    transform: translate(-50%, -50%);
+    border-radius: 1em;
+    padding: 2em;
+}
+@media (orientation: portrait) {
+    .popup {
+        width: 80%;
+    }
+}
+
+.liste .nom {
+    font-size: 2em;
+    text-align: center;
+}
+.liste .logo {
+    display: block;
+    margin: auto;
+    max-height: 8em;
+}
+.liste ul {
+    margin: 0;
+}
+.liste .liens {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.liste .liens img {
+    height: 3em;
+    background: whitesmoke;
+    padding: 0.2em;
+    border-radius: 0.5em;
+    margin: 0.2em;
+}
+.liste .photo {
+    max-width: 100%;
+}
