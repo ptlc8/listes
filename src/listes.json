@@ -8,11 +8,12 @@
                 "liens": {
                     "facebook": "https://www.facebook.com/profile.php?id=61556432252425",
                     "web": "https://liste-sherkan.fr/",
-                    "instagram": "https://www.instagram.com/liste_bde_sherkan/",
+                    "instagram": "https://www.instagram.com/bde_sherkan_/",
                     "youtube": "https://www.youtube.com/@Liste_Sherkan",
                     "tiktok": "https://www.tiktok.com/@liste_bde_sherkan"
                 },
-                "image": "assets/Sherkan.png",
+                "logo": "assets/logos/sherkan.png",
+                "photo": "assets/photos/sherkan.jpg",
                 "musique": "Jennifer Lopez - Let's Get Loud",
                 "couleur": "#0a3633",
                 "texte": "#ffffff",
@@ -28,7 +29,8 @@
                     "instagram": "https://www.instagram.com/liste_flamingo/",
                     "tiktok": "https://www.tiktok.com/@liste_flamingo"
                 },
-                "image": "assets/Flamingo.png",
+                "logo": "assets/logos/flamingo.png",
+                "photo": "assets/photos/flamingo.jpg",
                 "couleur": "#ff508b",
                 "musique": "Loona - Vamos a la Playa",
                 "votes": 102
@@ -41,7 +43,8 @@
                     "web": "https://liste-neon.fr/",
                     "instagram": "https://www.instagram.com/liste_bde_neon/"
                 },
-                "image": "assets/neon.png",
+                "logo": "assets/logos/neon.png",
+                "photo": "assets/photos/neon.jpg",
                 "couleur": "#b32821",
                 "musique": "Nicki Minaj - Starships"
             }
@@ -60,7 +63,8 @@
                     "web": "https://www.liste-asteria.fr",
                     "instagram": "https://www.instagram.com/bde__asteria"
                 },
-                "image": "assets/asteria.png",
+                "logo": "assets/logos/asteria.png",
+                "photo": "assets/photos/asteria.jpg",
                 "couleur": "#007aab",
                 "texte": "#ffffff",
                 "votes": 178,
@@ -76,7 +80,8 @@
                     "instagram": "https://www.instagram.com/les_polar",
                     "tiktok": "https://www.tiktok.com/@liste.polar"
                 },
-                "image": "assets/polar.png",
+                "logo": "assets/logos/polar.png",
+                "photo": "assets/photos/polar.jpg",
                 "couleur": "#82b496",
                 "texte": "#ffbc00",
                 "votes": 127,
@@ -85,7 +90,7 @@
             {
                 "nom": "Primal",
                 "animal": "singe",
-                "image": "assets/primal.jpg",
+                "logo": "assets/logos/primal.jpg",
                 "couleur": "#000000",
                 "texte": "#fad500"
             }
@@ -103,7 +108,7 @@
                     "facebook": "https://www.facebook.com/listeblackpearl"
                 },
                 "couleur": "#ff786b",
-                "image": "assets/blackpearl.png",
+                "logo": "assets/logos/blackpearl.png",
                 "ecart": 86,
                 "votes": 198,
                 "musique": "Taio Cruz - Hangover"
@@ -118,8 +123,9 @@
                 },
                 "couleur": "#724d41",
                 "texte": "#dddddd",
-                "image": "assets/wanted.png",
-                "animal": "bison",
+                "logo": "assets/logos/wanted.png",
+                "photo": "assets/photos/wanted.jpg",
+		"animal": "bison",
                 "votes": 112,
                 "musique": "Macklemore - Can't hold us"
             },
@@ -130,7 +136,7 @@
                     "facebook": "https://www.facebook.com/listebdehydra"
                 },
                 "couleur": "#53005a",
-                "image": "assets/hydra.jpg",
+                "logo": "assets/logos/hydra.jpg",
                 "texte": "#ffffff",
                 "musique": "Shakira - Waka waka"
             }
@@ -147,7 +153,7 @@
                 "liens": {
                     "facebook": "https://www.facebook.com/BDEKheops"
                 },
-                "image": "assets/kheops.png",
+                "logo": "assets/logos/kheops.png",
                 "animal": "faucon",
                 "ecart": 12,
                 "musique": "GALA - Freed from desire"
@@ -159,7 +165,7 @@
                 "liens": {
                     "facebook": "https://www.facebook.com/listebdekimera"
                 },
-                "image": "assets/kimera.png",
+                "logo": "assets/logos/kimera.png",
                 "animal": "cerbère",
                 "musique": "Taio Cruz - Dynamite"
             },
@@ -169,14 +175,14 @@
                 "liens": {
                     "facebook": "https://www.facebook.com/ListeYakuza"
                 },
-                "image": "assets/yakuza.png",
+                "logo": "assets/logos/yakuza.png",
                 "animal": "panda",
                 "musique": "Italobrothers - Stamp On The Ground"
             },
             {
                 "nom": "Rift",
                 "couleur": "#2a51dc",
-                "image": "assets/rift.png",
+                "logo": "assets/logos/rift.png",
                 "animal": "axolot"
             }
         ]
@@ -191,7 +197,7 @@
                 "liens": {
                     "facebook": "https://www.facebook.com/BDEDrakkar/"
                 },
-                "image": "assets/drakkar.jpg",
+                "logo": "assets/logos/drakkar.jpg",
                 "animal": "bélier",
                 "ecart": 51,
                 "musique": "Pitbull - Timber"
@@ -202,7 +208,7 @@
                 "liens": {
                     "facebook": "https://www.facebook.com/ListeBDEMoonlight/"
                 },
-                "image": "assets/moonlight.png",
+                "logo": "assets/logos/moonlight.png",
                 "animal": "tigre blanc",
                 "musique": "Avicii -  The nights"
             },
@@ -212,7 +218,7 @@
                 "liens": {
                     "facebook": "https://www.facebook.com/ListeGenesis/"
                 },
-                "image": "assets/genesis.png",
+                "logo": "assets/logos/genesis.png",
                 "animal": "springbok",
                 "musique": "K'NAAN - Wavin' Flag"
             }
@@ -228,7 +234,7 @@
                 "liens": {
                     "facebook": "https://www.facebook.com/BDERunWild/"
                 },
-                "image": "assets/run_wild.jpg",
+                "logo": "assets/logos/run_wild.jpg",
                 "animal": "rhinocéros",
                 "ecart": 113,
                 "musique": "Sean Paul - Temperature"
@@ -239,7 +245,7 @@
                 "liens": {
                     "facebook": "https://www.facebook.com/ListeReborn/"
                 },
-                "image": "assets/reborn.png",
+                "logo": "assets/logos/reborn.png",
                 "animal": "phoenix",
                 "musique": "Rise - Walk of the Earth"
             },
@@ -249,7 +255,7 @@
                 "liens": {
                     "facebook": "https://www.facebook.com/ListeDynasty/"
                 },
-                "image": "assets/dynasty.jpg",
+                "logo": "assets/logos/dynasty.jpg",
                 "animal": "panthère noire",
                 "musique": "Fergie - A Little Party Never Killed Nobody"
             }
@@ -267,7 +273,7 @@
                     "youtube": "https://www.youtube.com/@bdeequinox5835",
                     "twitter": "https://twitter.com/BDEEquinox"
                 },
-                "image": "assets/equinox.png",
+                "logo": "assets/logos/equinox.png",
                 "animal": "ours polaire",
                 "ecart": 48,
                 "musique": "Axwell - More than you know"
@@ -279,7 +285,7 @@
                 "liens": {
                     "facebook": "https://www.facebook.com/listebdesapreisti"
                 },
-                "image": "assets/sapreisti.png",
+                "logo": "assets/logos/sapreisti.png",
                 "animal": "raton laveur",
                 "musique": "Martin Solveig - +1"
             }
@@ -297,7 +303,7 @@
                     "youtube": "https://www.youtube.com/@bdedaybreak6213",
                     "twitter": "https://twitter.com/bdedaybreak"
                 },
-                "image": "assets/daybreak.png",
+                "logo": "assets/logos/daybreak.png",
                 "animal": "loup",
                 "ecart": 36,
                 "musique": "Galantis - No Money"
@@ -310,7 +316,7 @@
                     "facebook": "https://www.facebook.com/ListeBDESavage/",
                     "twitter": "https://twitter.com/ListeBDESavage"
                 },
-                "image": "assets/savage.png",
+                "logo": "assets/logos/savage.png",
                 "animal": "gorille",
                 "musique": "Don Diablo - Cutting Shapes"
             }
@@ -327,7 +333,8 @@
                     "youtube": "https://www.youtube.com/@listebdefreakout4344",
                     "twitter": "https://twitter.com/BDEeisti"
                 },
-                "image": "assets/freak_out.jpg",
+                "logo": "assets/logos/freak_out.jpg",
+		"photo": "assets/photos/freak_out.jpg",
                 "animal": "lion",
                 "texte": "#ffaf39",
                 "ecart": 137
@@ -340,7 +347,7 @@
                     "facebook": "https://www.facebook.com/listebdeeiscape/",
                     "youtube": "https://www.youtube.com/@listebdeeiscape2425"
                 },
-                "image": "assets/eiscape.png",
+                "logo": "assets/logos/eiscape.png",
                 "animal": "cerf",
                 "musique": "Major Lazer – Light it Up"
             }
@@ -355,7 +362,7 @@
                 "liens": {
                     "facebook": "https://www.facebook.com/BDEStayHigh/"
                 },
-                "image": "assets/stay_high.png",
+                "logo": "assets/logos/stay_high.png",
                 "animal": "chouette",
                 "ecart": 84
             },
@@ -366,7 +373,7 @@
                 "liens": {
                     "facebook": "https://www.facebook.com/Liste-BDE-SmartIz-1595577183991519/"
                 },
-                "image": "assets/smartiz.jpg",
+                "logo": "assets/logos/smartiz.jpg",
                 "animal": "hamster"
             }
         ]
@@ -383,13 +390,13 @@
                     "youtube": "https://www.youtube.com/@listebdemakeitneisti8701",
                     "twitter": "https://twitter.com/MakeItNEisti"
                 },
-                "image": "assets/make_it_neisti.jpg",
+                "logo": "assets/logos/make_it_neisti.jpg",
                 "animal": "aigle",
                 "ecart": 5
             },
             {
                 "nom": "Destiny",
-                "image": "assets/destiny.jpg",
+                "logo": "assets/logos/destiny.jpg",
                 "couleur": "#880000",
                 "animal": "robot"
             }
@@ -406,7 +413,7 @@
                     "facebook": "https://www.facebook.com/ListeBeHype",
                     "youtube": "https://www.youtube.com/@ListeBeHype"
                 },
-                "image": "assets/be_hype.jpg",
+                "logo": "assets/logos/be_hype.jpg",
                 "animal": "léopard"
             },
             {
@@ -416,7 +423,7 @@
                     "facebook": "https://www.facebook.com/Liste.BDE.FeistiF",
                     "dailymotion": "https://www.dailymotion.com/Liste-BDE-FeistiF"
                 },
-                "image": "assets/feistif.jpg",
+                "logo": "assets/logos/feistif.jpg",
                 "animal": "perroquet",
                 "texte": "#00304f"
             }
@@ -432,7 +439,7 @@
                 "liens": {
                     "facebook": "https://www.facebook.com/BDE.Eisti.KissCool"
                 },
-                "image": "assets/kiss_cool.jpg",
+                "logo": "assets/logos/kiss_cool.jpg",
                 "animal": "yeti et manchot"
             },
             {
@@ -442,7 +449,7 @@
                     "facebook": "https://www.facebook.com/listebde.fanteistic"
                 },
                 "texte": "#f1aab2",
-                "image": "assets/fanteistic.png"
+                "logo": "assets/logos/fanteistic.png"
             }
         ]
     },
@@ -457,7 +464,7 @@
                     "facebook": "https://www.facebook.com/bde.sismic",
                     "dailymotion": "https://www.dailymotion.com/listebdesismic"
                 },
-                "image": "assets/sismic.jpg",
+                "logo": "assets/logos/sismic.jpg",
                 "vote": 170,
                 "ecart": 15
             },
@@ -467,7 +474,7 @@
                     "web": "https://www.journal-officiel.gouv.fr/associations/detail-annonce/associations_b/20100047/1577"
                 },
                 "vote": 155,
-                "image": "assets/virtuose.png",
+                "logo": "assets/logos/virtuose.png",
                 "texte": "#00c55c"
             }
         ]
@@ -483,7 +490,7 @@
                     "dailymotion": "https://www.dailymotion.com/tastyNtrendy",
                     "dailymotion2": "https://www.dailymotion.com/yohanr88"
                 },
-                "image": "assets/tnt.jpg",
+                "logo": "assets/logos/tnt.jpg",
                 "musique": "Klaas - Our Own Way"
             },
             {
@@ -492,12 +499,12 @@
                     "facebook": "https://www.facebook.com/INSPRIT"
                 },
                 "couleur": "#4444dd",
-                "image": "assets/inspirit.jpg",
+                "logo": "assets/logos/inspirit.jpg",
                 "animal": "singe"
             },
             {
                 "nom": "Dynasty",
-                "image": "assets/dynasty1.png"
+                "logo": "assets/logos/dynasty_2010.png"
             }
         ]
     },
@@ -512,13 +519,13 @@
                     "dailymotion": "https://www.dailymotion.com/Liste_BDE_SunSation"
                 },
                 "animal": "lapin",
-                "image": "assets/sunsation.jpg"
+                "logo": "assets/logos/sunsation.jpg"
             },
             {
                 "nom": "Preistige",
                 "couleur": "#e81c97",
                 "texte": "#ffffff",
-                "image": "assets/preistige.png",
+                "logo": "assets/logos/preistige.png",
                 "liens": {
                     "dailymotion": "https://www.dailymotion.com/bde-preistige"
                 }
@@ -535,7 +542,8 @@
                 "liens": {
                     "dailymotion": "https://www.dailymotion.com/BDE-Majeistic"
                 },
-                "image": "assets/majeistic.png"
+                "logo": "assets/logos/majeistic.png",
+		"photo": "assets/photos/majeistic.jpg"
             },
             {
                 "nom": "Kaliente",
@@ -544,7 +552,7 @@
                 "liens": {
                     "facebook": "https://www.facebook.com/liste.kaliente"
                 },
-                "image": "assets/kaliente.jpg"
+                "logo": "assets/logos/kaliente.jpg"
             },
             {
                 "nom": "Zhigh-On",
@@ -560,13 +568,13 @@
         "listes": [
             {
                 "nom": "Dyna'mix",
-                "image": "assets/dynamix.jpg",
+                "logo": "assets/logos/dynamix.jpg",
                 "couleur": "#32a4ed",
                 "texte": "#ffffff"
             },
             {
                 "nom": "Tonik",
-                "image": "assets/tonik.jpg",
+                "logo": "assets/logos/tonik.jpg",
                 "couleur": "#1a42a4",
                 "texte": "#e6c300",
                 "liens": {
@@ -581,13 +589,13 @@
             {
                 "nom": "Pulsion",
                 "couleur": "#750010",
-                "image": "assets/pulsion.jpg",
+                "logo": "assets/logos/pulsion.jpg",
                 "texte": "#FFCC00"
             },
             {
                 "nom": "Premium",
                 "couleur": "#000000",
-                "image": "assets/premium.jpg",
+                "logo": "assets/logos/premium.jpg",
                 "texte": "#ffffff",
                 "liens": {
                     "web": "https://web.archive.org/web/20060523084132/http://www.bde-premium.com/"
@@ -601,7 +609,7 @@
             {
                 "nom": "Samba",
                 "couleur": "#008001",
-                "image": "assets/samba.jpg",
+                "logo": "assets/logos/samba.jpg",
                 "liens": {
                     "web": "https://web.archive.org/web/20061125165500/http://bdesamba.free.fr/"
                 }
@@ -641,7 +649,7 @@
         "listes": [
             {
                 "nom": "E-motion",
-                "image": "assets/e_motion.jpg"
+                "logo": "assets/logos/e_motion.jpg"
             },
             {
                 "nom": "Feistiv'all"
@@ -656,7 +664,7 @@
         "listes": [
             {
                 "nom": "Taste it",
-                "image": "assets/taste_it.jpg",
+                "logo": "assets/logos/taste_it.jpg",
                 "liens": {
                     "web": "https://web.archive.org/web/20010524234955fw_/http://tasteit.ifrance.com/tasteit/menu.html"
                 },
@@ -665,12 +673,12 @@
             },
             {
                 "nom": "Vertige 41",
-                "image": "assets/vertige_41.jpg",
+                "logo": "assets/logos/vertige_41.jpg",
                 "votes": 99
             },
             {
                 "nom": "T'ESITI cool",
-                "image": "assets/tesiti_cool.jpg"
+                "logo": "assets/logos/tesiti_cool.jpg"
             }
         ],
         "votes": 264,
@@ -694,7 +702,7 @@
                 "nom": "On'EISTI",
                 "votes": 169,
                 "ecart": 68,
-                "image": "assets/oneisti.jpg"
+                "logo": "assets/logos/oneisti.jpg"
             },
             {
                 "nom": "Brainwave",
@@ -703,20 +711,20 @@
             {
                 "nom": "EISTI'm",
                 "votes": 35,
-                "image": "assets/eistim.jpg"
+                "logo": "assets/logos/eistim.jpg"
             },
             {
                 "nom": "Pos'EISTI've",
                 "votes": 0,
-                "image": "assets/poseistive.jpg"
+                "logo": "assets/logos/poseistive.jpg"
             },
             {
                 "nom": "2001 Odyssée de l'EISTI",
-                "image": "assets/2001_odyssee_de_leisti.jpg"
+                "logo": "assets/logos/2001_odyssee_de_leisti.jpg"
             },
             {
                 "nom": "Mieux mieux 200000001",
-                "image": "assets/mieux_mieux_2000001.jpg"
+                "logo": "assets/logos/mieux_mieux_2000001.jpg"
             }
         ],
         "votes": 311,
@@ -744,7 +752,7 @@
             },
             {
                 "nom": "EISTImpson ?",
-                "image": "assets/eistimpson.gif",
+                "logo": "assets/logos/eistimpson.gif",
                 "liens": {
                     "web": "https://web.archive.org/web/19970730193859/http://www.eisti.fr/~bde/membres.html"
                 }

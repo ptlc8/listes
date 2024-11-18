@@ -7,7 +7,7 @@ window.addEventListener("load", () => {
                 : createElement("div", { className: "annee", style: { backgroundColor: annee.listes[0].couleur, color: annee.listes[0].texte } }, annee.annee + " - BDE " + annee.listes[0].nom + (annee.votes ? " - " + annee.votes + " votants" : "")));
             listesDiv.appendChild(createElement("div", { className: "listes", title: annee.annee }, annee.listes.map(liste => {
                 return createElement("div", { style: { backgroundColor: liste.couleur, color: liste.texte } }, [
-                    liste.image ? createElement("img", { src: liste.image }) : "",
+                    liste.logo ? createElement("img", { src: liste.logo }) : "",
                     createElement("span", {}, liste.nom),
                     liste.ecart ? createElement("span", { className: "ecart" }, "+" + liste.ecart) : ""
                 ], {
@@ -23,7 +23,7 @@ function popupListe(liste) {
     document.body.appendChild(popup = createElement("div", { className: "popup-wrapper" }, [
         createElement("div", { className: "popup liste", style: { backgroundColor: liste.couleur, color: liste.texte } }, [
             createElement("div", { className: "nom" }, liste.nom),
-            createElement("img", { className: "logo", src: liste.image }),
+            createElement("img", { className: "logo", src: liste.logo }),
             liste.couleur ? createElement("div", {}, "Couleur : " + liste.couleur) : "",
             liste.animal ? createElement("div", {}, "Animal : " + liste.animal) : "",
             liste.musique ? createElement("div", {}, "Musique : " + liste.musique) : "",
@@ -33,7 +33,8 @@ function popupListe(liste) {
                 Object.entries(liste.liens).map(([reseau, lien]) => createElement("a", { href: lien, title: reseau, target: "_blank" }, [
                     createElement("img", { src: "assets/icons/" + reseau + ".svg", alt: reseau })
                 ]))
-            ) : ""
+            ) : "",
+            liste.photo ? createElement("img", { className: "photo", src: liste.photo }) : ""
         ], {
             click: e => e.stopPropagation()
         })

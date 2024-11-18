@@ -91,6 +91,9 @@ a {
     border-radius: 0.5em;
     margin: 0.2em;
 }
+.liste .photo {
+    max-width: 100%;
+}
 
 #contribute {
     position: absolute;
