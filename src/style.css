@@ -58,6 +58,7 @@ a {
     width: 40%;
     min-height: 60%;
     max-height: 90%;
+    overflow: auto;
     background-color: whitesmoke;
     transform: translate(-50%, -50%);
     border-radius: 1em;
