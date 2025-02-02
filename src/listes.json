@@ -89,6 +89,7 @@
             },
             {
                 "nom": "Primal",
+                "presque": true,
                 "animal": "singe",
                 "logo": "assets/logos/primal.jpg",
                 "couleur": "#000000",
@@ -181,6 +182,7 @@
             },
             {
                 "nom": "Rift",
+                "presque": true,
                 "couleur": "#2a51dc",
                 "logo": "assets/logos/rift.png",
                 "animal": "axolot"

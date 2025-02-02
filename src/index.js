@@ -2,14 +2,20 @@ window.addEventListener("load", () => {
     fetch("listes.json").then(res => res.json()).then(annees => {
         var listesDiv = document.getElementById("listes");
         for (let annee of annees) {
-            listesDiv.appendChild(annee.unfinished
-                ? createElement("div", { className: "annee" }, annee.annee)
-                : createElement("div", { className: "annee", style: { backgroundColor: annee.listes[0].couleur, color: annee.listes[0].texte } }, annee.annee + " - BDE " + annee.listes[0].nom + (annee.votes ? " - " + annee.votes + " votants" : "")));
-            listesDiv.appendChild(createElement("div", { className: "listes", title: annee.annee }, annee.listes.map(liste => {
-                return createElement("div", { style: { backgroundColor: liste.couleur, color: liste.texte } }, [
+            listesDiv.appendChild(createElement("div", {
+                className: "annee",
+                style: annee.unfinished ? undefined : { backgroundColor: annee.listes[0].couleur, color: annee.listes[0].texte },
+                title: annee.annee
+            }, annee.annee + " - BDE " + annee.listes[0].nom + (annee.votes ? " - " + annee.votes + " votants" : "")));
+            listesDiv.appendChild(createElement("div", { className: "listes" }, annee.listes.map((liste, index) => {
+                return createElement("div", {
+                    style: { backgroundColor: liste.couleur, color: liste.texte },
+                    title: (annee.unfinished ? "Liste" : liste.presque ? "Presque liste" : index == 0 ? "BDE" : "BDL") + " " + annee.annee
+                }, [
                     liste.logo ? createElement("img", { src: liste.logo }) : "",
-                    createElement("span", {}, liste.nom),
-                    liste.ecart ? createElement("span", { className: "ecart" }, "+" + liste.ecart) : ""
+                    createElement("span", { className: "nom" }, liste.nom),
+                    liste.ecart ? createElement("span", { className: "ecart" }, "+" + liste.ecart) : "",
+                    liste.presque ? createElement("span", { className: "warning", title: "Cette liste n'a pas été révélée" }, "⚠️ Presque liste") : ""
                 ], {
                     click: () => popupListe(liste)
                 })
