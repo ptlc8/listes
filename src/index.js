@@ -6,7 +6,7 @@ window.addEventListener("load", () => {
                 className: "annee",
                 style: annee.unfinished ? undefined : { backgroundColor: annee.listes[0].couleur, color: annee.listes[0].texte },
                 title: annee.annee
-            }, annee.annee + " - BDE " + annee.listes[0].nom + (annee.votes ? " - " + annee.votes + " votants" : "")));
+            }, annee.annee + (annee.unfinished ? "" : " - BDE " + annee.listes[0].nom) + (annee.votes ? " - " + annee.votes + " votants" : "")));
             listesDiv.appendChild(createElement("div", { className: "listes" }, annee.listes.map((liste, index) => {
                 return createElement("div", {
                     style: { backgroundColor: liste.couleur, color: liste.texte },
