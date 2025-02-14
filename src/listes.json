@@ -6,7 +6,20 @@
                 "nom": "Calypso"
             },
             {
-                "nom": "Zephyra"
+                "nom": "Zephyra",
+                "animal": "Harpie",
+                "liens": {
+                    "facebook": "https://www.facebook.com/profile.php?id=61572993982450",
+                    "web": "https://liste-zephyra.com/",
+                    "instagram": "https://www.instagram.com/liste.zephyra/",
+                    "youtube": "https://www.youtube.com/@liste.zephyra",
+                    "tiktok": "https://www.tiktok.com/@liste.zephyra"
+                },
+                "logo": "assets/logos/zephyra.png",
+                "photo": "assets/photos/zephyra.jpg",
+                "musique": "Black M - La Légende Black",
+                "couleur": "#fe5101",
+                "texte": "#ffffff"
             },
             {
                 "nom": "Sunset"
@@ -19,7 +32,7 @@
         "listes": [
             {
                 "nom": "Sherkan",
-                "animal" :"Tigre à dents de sabre",
+                "animal": "Tigre à dents de sabre",
                 "liens": {
                     "facebook": "https://www.facebook.com/profile.php?id=61556432252425",
                     "web": "https://liste-sherkan.fr/",
@@ -139,7 +152,7 @@
                 "texte": "#dddddd",
                 "logo": "assets/logos/wanted.png",
                 "photo": "assets/photos/wanted.jpg",
-		"animal": "bison",
+                "animal": "bison",
                 "votes": 112,
                 "musique": "Macklemore - Can't hold us"
             },
@@ -349,7 +362,7 @@
                     "twitter": "https://twitter.com/BDEeisti"
                 },
                 "logo": "assets/logos/freak_out.jpg",
-		"photo": "assets/photos/freak_out.jpg",
+                "photo": "assets/photos/freak_out.jpg",
                 "animal": "lion",
                 "texte": "#ffaf39",
                 "ecart": 137
@@ -558,7 +571,7 @@
                     "dailymotion": "https://www.dailymotion.com/BDE-Majeistic"
                 },
                 "logo": "assets/logos/majeistic.png",
-		"photo": "assets/photos/majeistic.jpg"
+                "photo": "assets/photos/majeistic.jpg"
             },
             {
                 "nom": "Kaliente",
