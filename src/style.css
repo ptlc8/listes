@@ -71,7 +71,7 @@ a {
     top: 0;
     left: 0;
     background-color: rgba(.5, .5, .5, .4);
-    z-index: 5;
+    z-index: 100;
 }
 .popup {
     position: absolute;
@@ -79,7 +79,7 @@ a {
     top: 50%;
     width: 40%;
     min-height: 60%;
-    max-height: 90%;
+    max-height: calc(90% - 2em);
     overflow: auto;
     background-color: whitesmoke;
     transform: translate(-50%, -50%);
