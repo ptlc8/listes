@@ -22,7 +22,20 @@
                 "texte": "#ffffff"
             },
             {
-                "nom": "Sunset"
+                "nom": "Sunset",
+                "animal": "Lion",
+                "liens": {
+                    "facebook": "https://www.facebook.com/profile.php?id=61572707885836",
+                    "web": "https://liste-sunset.fr/",
+                    "instagram": "https://www.instagram.com/liste_sunset/",
+                    "youtube": "https://www.youtube.com/@liste-sunset",
+                    "tiktok": "https://www.tiktok.com/@liste_sunset"
+                },
+                "logo": "assets/logos/sunset.png",
+                "photo": "assets/photos/sunset.jpg",
+                "musique": "Madcon - Don't Worry",
+                "couleur": "#4a071c",
+                "texte": "#ffffff"
             }
         ],
         "unfinished": true
