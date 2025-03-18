@@ -3,7 +3,20 @@
         "annee": "2025-2026",
         "listes": [
             {
-                "nom": "Calypso"
+                "nom": "Calypso", 
+                "animal": "Serpent des Mers",
+                "liens": {
+                    "facebook": "https://www.facebook.com/profile.php?id=61573145785009",
+                    "web": "https://liste-calypso.fr",
+                    "instagram": "https://www.instagram.com/liste_calypso",
+                    "youtube": "https://www.youtube.com/@ListoNumeroUno",
+                    "tiktok": "https://www.tiktok.com/@liste.calypso"
+                },
+                "logo": "assets/logos/calypso.png",
+                "photo": "assets/photos/calypso.jpg",
+                "musique": "Flo rida & Keisha - Right Round",
+                "couleur": "#09157b",
+                "texte": "#ffffff"
             },
             {
                 "nom": "Zephyra",
