@@ -1,0 +1,78 @@
+name: Validate JSON and assets
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  validate-json:
+    name: Validate JSON file
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install dependencies
+        run: sudo apt-get install -y jq
+      - name: Validate JSON file
+        run: |
+          if ! jq empty src/listes.json; then
+            echo "Invalid JSON in src/listes.json"
+            exit 1
+          fi
+
+  check-json-ref:
+    name: Check JSON references
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install dependencies
+        run: sudo apt-get install -y jq
+      - name: Check JSON references
+        run: |
+          valid=true
+          for logo in $(jq -r '.[].listes[].logo | select( . != null )' src/listes.json); do
+            if ! [ -f src/"$logo" ]; then
+              echo "Logo src/$logo not found"
+              valid=false
+            fi
+          done
+          for photo in $(jq -r '.[].listes[].photo | select( . != null )' src/listes.json); do
+            if ! [ -f src/"$photo" ]; then
+              echo "Photo src/$photo not found"
+              valid=false
+            fi
+          done
+          if [ $valid = false ]; then
+            exit 1
+          fi
+
+  check-images-size:
+    name: Check logos size
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install dependencies
+        run: sudo apt-get install -y jq
+      - name: Check logos size
+        run: |
+          valid=true
+          for logo in src/assets/logos/*; do
+            size=$(wc -c < "$logo")
+            if [ $size -gt 400000 ]; then
+              echo "$logo is bigger than 400Ko ($size), try to compress it"
+              valid=false
+            fi
+          done
+          for photo in src/assets/photos/*; do
+            size=$(wc -c < "$photo")
+            if [ $size -gt 1000000 ]; then
+              echo "$photo is bigger than 1Mo ($size), try to compress it"
+              valid=false
+            fi
+          done
+          if [ $valid = false ]; then
+            exit 1
+          fi
