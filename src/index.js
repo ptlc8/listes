@@ -33,7 +33,10 @@ function popupListe(liste) {
             liste.couleur ? createElement("div", {}, "Couleur : " + liste.couleur) : "",
             liste.animal ? createElement("div", {}, "Animal : " + liste.animal) : "",
             liste.musique ? createElement("div", {}, "Musique : " + liste.musique) : "",
-            liste.votes ? createElement("div", {}, "Votes : " + liste.votes) : "",
+            liste.votes ? createElement("div", {}, [
+                "Votes : ",
+                liste.votes instanceof Array ? createElement("ul", {}, liste.votes.map((v, i) => createElement("li", {}, i + 1 + "e tour : " + v))) : liste.votes + ""
+            ]) : "",
             liste.ecart ? createElement("div", {}, "Écart : " + liste.ecart) : "",
             liste.liens ? createElement("div", { className: "liens" },
                 Object.entries(liste.liens).map(([reseau, lien]) => createElement("a", { href: lien, title: reseau, target: "_blank" }, [

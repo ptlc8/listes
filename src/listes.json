@@ -71,7 +71,10 @@
                 "musique": "Jennifer Lopez - Let's Get Loud",
                 "couleur": "#0a3633",
                 "texte": "#ffffff",
-                "votes": 207,
+                "votes": [
+                    161,
+                    207
+                ],
                 "ecart": 105
             },
             {
@@ -87,7 +90,10 @@
                 "photo": "assets/photos/flamingo.jpg",
                 "couleur": "#ff508b",
                 "musique": "Loona - Vamos a la Playa",
-                "votes": 102
+                "votes": [
+                    97,
+                    102
+                ]
             },
             {
                 "nom": "Néon",
@@ -100,7 +106,10 @@
                 "logo": "assets/logos/neon.png",
                 "photo": "assets/photos/neon.jpg",
                 "couleur": "#b32821",
-                "musique": "Nicki Minaj - Starships"
+                "musique": "Nicki Minaj - Starships",
+                "votes": [
+                    51
+                ]
             }
         ],
         "votes": 309
@@ -163,7 +172,10 @@
                 "couleur": "#ff786b",
                 "logo": "assets/logos/blackpearl.png",
                 "ecart": 86,
-                "votes": 198,
+                "votes": [
+                    156,
+                    198
+                ],
                 "musique": "Taio Cruz - Hangover"
             },
             {
@@ -179,7 +191,10 @@
                 "logo": "assets/logos/wanted.png",
                 "photo": "assets/photos/wanted.jpg",
                 "animal": "bison",
-                "votes": 112,
+                "votes": [
+                    98,
+                    112
+                ],
                 "musique": "Macklemore - Can't hold us"
             },
             {
@@ -191,10 +206,13 @@
                 "couleur": "#53005a",
                 "logo": "assets/logos/hydra.jpg",
                 "texte": "#ffffff",
-                "musique": "Shakira - Waka waka"
+                "musique": "Shakira - Waka waka",
+                "votes": [
+                    59
+                ]
             }
         ],
-        "votes": 312
+        "votes": 313
     },
     {
         "annee": "2021-2022",
