@@ -3,6 +3,27 @@
         "annee": "2025-2026",
         "listes": [
             {
+                "nom": "Sunset",
+                "animal": "Lion",
+                "liens": {
+                    "facebook": "https://www.facebook.com/profile.php?id=61572707885836",
+                    "web": "https://liste-sunset.fr/",
+                    "instagram": "https://www.instagram.com/liste_sunset/",
+                    "youtube": "https://www.youtube.com/@liste-sunset",
+                    "tiktok": "https://www.tiktok.com/@liste_sunset"
+                },
+                "logo": "assets/logos/sunset.png",
+                "photo": "assets/photos/sunset.jpg",
+                "musique": "Madcon - Don't Worry",
+                "couleur": "#4a071c",
+                "texte": "#ffffff",
+                "votes": [
+                    101,
+                    153
+                ],
+                "ecart": 35
+            },
+            {
                 "nom": "Calypso", 
                 "animal": "Serpent des Mers",
                 "liens": {
@@ -14,9 +35,13 @@
                 },
                 "logo": "assets/logos/calypso.png",
                 "photo": "assets/photos/calypso.jpg",
-                "musique": "Flo rida & Keisha - Right Round",
+                "musique": "Flo Rida & Keisha - Right Round",
                 "couleur": "#09157b",
-                "texte": "#ffffff"
+                "texte": "#ffffff",
+                "votes": [
+                    107,
+                    118
+                ]   
             },
             {
                 "nom": "Zephyra",
@@ -32,26 +57,13 @@
                 "photo": "assets/photos/zephyra.jpg",
                 "musique": "Black M - La Légende Black",
                 "couleur": "#fe5101",
-                "texte": "#ffffff"
-            },
-            {
-                "nom": "Sunset",
-                "animal": "Lion",
-                "liens": {
-                    "facebook": "https://www.facebook.com/profile.php?id=61572707885836",
-                    "web": "https://liste-sunset.fr/",
-                    "instagram": "https://www.instagram.com/liste_sunset/",
-                    "youtube": "https://www.youtube.com/@liste-sunset",
-                    "tiktok": "https://www.tiktok.com/@liste_sunset"
-                },
-                "logo": "assets/logos/sunset.png",
-                "photo": "assets/photos/sunset.jpg",
-                "musique": "Madcon - Don't Worry",
-                "couleur": "#4a071c",
-                "texte": "#ffffff"
+                "texte": "#ffffff",
+                "votes": [
+                    64
+                ]
             }
         ],
-        "unfinished": true
+        "votes": 276
     },
     {
         "annee": "2024-2025",
