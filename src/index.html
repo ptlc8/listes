@@ -1,19 +1,63 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" data-app="{ annees: [], popupListe: null }">
     <head>
         <meta charset="UTF-8" />
-        <title>Les listes</title>
+        <title>Listes BDE eistiennes</title>
         <link rel="icon" type="image/svg" href="assets/arel.svg" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <link rel="stylesheet" href="style.css" />
-        <script src="index.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/ptlc8/anchovy@0.3.2/src/anchovy.js"></script>
+        <script>
+            fetch("listes.json")
+                .then(res => res.json())
+                .then(annees => {
+                    app.data.annees = annees;
+                });
+        </script>
     </head>
     <body>
-        <div id="listes"></div>
-        <div id="contribute">
-            Tu as de nouvelles informations sur les listes ?<br>N'hésite pas à contribuer !
-            <br/>
-            <a target="_blank" href="https://github.com/ptlc8/listes">Contribuer</a>
+        <header>
+            <h1>Listes BDE eistiennes</h1>
+            <nav>
+                <a href="quiz.html" title="Teste tes connaissances avec un quiz">Quiz</a>
+                <a target="_blank" href="https://github.com/ptlc8/listes" title="Tu as de nouvelles informations sur les listes ?&#10;N'hésite pas à contribuer !">Contribuer</a>
+            </nav>
+        </header>
+        <main id="listes" data-foreach-annee="annees" data-update="annees">
+            <section>
+                <h2 class="annee" data-style="annee.unfinished ? {} : { backgroundColor: annee.listes[0].couleur, color: annee.listes[0].texte }" data-bind-title="annee.annee" data-bind="annee.annee + (annee.unfinished ? '' : ' - BDE ' + annee.listes[0].nom) + (annee.votes ? ' - ' + annee.votes + ' votants' : '')"></h2>
+                <article class="listes" data-foreach-liste="annee.listes" data-index="index">
+                    <div data-style="{ backgroundColor: liste.couleur, color: liste.texte }" data-bind-title="(annee.unfinished ? 'Liste' : liste.presque ? 'Presque liste' : index == 0 ? 'BDE' : 'BDL') + ' ' + annee.annee" data-on-click="popupListe = liste">
+                        <img data-if="liste.logo" data-bind-src="liste.logo" />
+                        <h3 class="nom" data-bind="liste.nom"></h3>
+                        <span data-if="liste.ecart" class="ecart" data-bind="'+' + liste.ecart"></span>
+                        <span data-if="liste.presque" class="warning" title="Cette liste n'a pas été révélée">⚠️ Presque liste</span>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <div data-if="popupListe" class="popup-wrapper" data-on-click="popupListe = null" data-update="popupListe">
+            <div class="popup liste" data-style="{ backgroundColor: popupListe.couleur, color: popupListe.texte }" data-on-click="$event.stopPropagation()">
+                <div class="nom" data-bind="popupListe.nom"></div>
+                <img class="logo" data-bind-src="popupListe.logo" />
+                <div data-if="popupListe.couleur" data-bind="'Couleur : ' + popupListe.couleur"></div>
+                <div data-if="popupListe.animal" data-bind="'Animal : ' + popupListe.animal"></div>
+                <div data-if="popupListe.musique" data-bind="'Musique : ' + popupListe.musique"></div>
+                <div data-if="popupListe.votes">
+                    Votes :
+                    <ul data-if="popupListe.votes instanceof Array" data-foreach-vote="popupListe.votes" data-index="index">
+                        <li data-bind="+index + 1 + 'e tour : ' + vote"></li>
+                    </ul>
+                    <span data-else data-bind="popupListe.votes"></span>
+                </div>
+                <div data-if="popupListe.ecart" data-bind="'Écart : ' + popupListe.ecart"></div>
+                <div data-if="popupListe.liens" class="liens" data-foreach-lien="popupListe.liens" data-index="reseau">
+                    <a data-bind-href="lien" data-bind-title="reseau" target="_blank">
+                        <img data-bind-src="'assets/icons/' + reseau + '.svg'" data-bind-alt="reseau" />
+                    </a>
+                </div>
+                <img data-if="popupListe.photo" class="photo" data-bind-src="popupListe.photo" />
+            </div>
         </div>
     </body>
 </html>
