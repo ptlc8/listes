@@ -335,7 +335,7 @@
             },
             {
                 "nom": "Dynasty",
-                "couleur": "#ded4d7",
+                "couleur": "#fcbbf2",
                 "liens": {
                     "facebook": "https://www.facebook.com/ListeDynasty/"
                 },
@@ -443,6 +443,7 @@
             {
                 "nom": "Stay High",
                 "couleur": "#ffffff",
+                "texte": "#000000",
                 "liens": {
                     "facebook": "https://www.facebook.com/BDEStayHigh/"
                 },
@@ -555,7 +556,7 @@
             {
                 "nom": "Virtu'ose",
                 "liens": {
-                    "web": "https://www.journal-officiel.gouv.fr/associations/detail-annonce/associations_b/20100047/1577"
+                    "jo": "https://www.journal-officiel.gouv.fr/pages/associations-detail-annonce/?q.id=id:201000471577"
                 },
                 "vote": 155,
                 "logo": "assets/logos/virtuose.png",
@@ -575,7 +576,8 @@
                     "dailymotion2": "https://www.dailymotion.com/yohanr88"
                 },
                 "logo": "assets/logos/tnt.jpg",
-                "musique": "Klaas - Our Own Way"
+                "musique": "Klaas - Our Own Way",
+                "photo": "assets/photos/tnt.jpg"
             },
             {
                 "nom": "Inspirit",
@@ -712,7 +714,10 @@
                 "texte": "#ffffff"
             },
             {
-                "nom": "Typhon ?"
+                "nom": "Typhon",
+                "liens": {
+                    "jo": "https://www.journal-officiel.gouv.fr/pages/associations-detail-annonce/?q.id=id:200400202100"
+                }
             }
         ]
     },
@@ -724,7 +729,10 @@
                 "couleur": "#ff6666"
             },
             {
-                "nom": "EISTI'mate"
+                "nom": "EISTI'mate / EISTI M'8",
+                "liens": {
+                    "jo": "https://www.journal-officiel.gouv.fr/pages/associations-detail-annonce/?q.id=id:200300192737"
+                }
             }
         ]
     },
@@ -739,7 +747,10 @@
                 "nom": "Feistiv'all"
             },
             {
-                "nom": "Pleine Lune"
+                "nom": "Pleine Lune",
+                "liens": {
+                    "jo": "https://www.journal-officiel.gouv.fr/pages/associations-detail-annonce/?q.id=id:200200162514"
+                }
             }
         ]
     },
@@ -750,7 +761,8 @@
                 "nom": "Taste it",
                 "logo": "assets/logos/taste_it.jpg",
                 "liens": {
-                    "web": "https://web.archive.org/web/20010524234955fw_/http://tasteit.ifrance.com/tasteit/menu.html"
+                    "web": "https://web.archive.org/web/20010524234955fw_/http://tasteit.ifrance.com/tasteit/menu.html",
+                    "jo": "https://www.journal-officiel.gouv.fr/pages/associations-detail-annonce/?q.id=id:200100182061"
                 },
                 "votes": 158,
                 "ecart": 59
@@ -773,9 +785,6 @@
         "listes": [
             {
                 "nom": "Ace'Team"
-            },
-            {
-                "nom": "??"
             }
         ]
     },
@@ -795,7 +804,10 @@
             {
                 "nom": "EISTI'm",
                 "votes": 35,
-                "logo": "assets/logos/eistim.jpg"
+                "logo": "assets/logos/eistim.jpg",
+                "liens": {
+                   "jo": "https://www.journal-officiel.gouv.fr/pages/associations-detail-annonce/?q.id=id:199900192511"
+                }
             },
             {
                 "nom": "Pos'EISTI've",
@@ -847,7 +859,10 @@
         "annee": "1996-1997",
         "listes": [
             {
-                "nom": "Basic EISTInct ?"
+                "nom": "Basic EISTInct",
+                "liens": {
+                    "web": "https://web.archive.org/web/19970506230022/http://www.eisti.fr/~bde/"
+                }
             }
         ]
     },
