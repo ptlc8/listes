@@ -7,7 +7,7 @@ article {
     width: 90%;
     max-width: 700px;
     margin: auto;
-    padding: 5%;
+    padding: 5em 5%;
     display: flex;
     flex-direction: column;
     gap: .5em;
@@ -64,6 +64,9 @@ label {
     gap: 1em;
     margin: 1em;
 }
+.quiz .answers :nth-child(2n + 1):last-child {
+    grid-column: span 2;
+}
 .quiz .answers button {
     font-size: 1.5em;
     border: none;
@@ -80,4 +83,24 @@ label {
     .quiz .answers {
         grid-template-columns: 1fr;
     }
+}
+
+.results {
+    list-style: none;
+    padding: 0 1em;
+}
+.results li {
+    margin: .2em 0;
+}
+.results .answer {
+    border-radius: .5em;
+    padding: 0 .25em;
+    background-color: var(--reverse-bg-color);
+    color: var(--reverse-text-color);
+}
+.results .correct {
+    color: yellowgreen
+}
+.results .incorrect {
+    color: orangered
 }

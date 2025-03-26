@@ -28,10 +28,10 @@
                 <h1>Quiz des listes BDE eistiennes</h1>
                 <fieldset>
                     <legend>Catégories</legend>
-                    <span data-foreach-category="categories" data-index="id">
+                    <span data-foreach-category="getCategories(annees, params.anneeMinIndex, params.anneeMaxIndex)" data-index="id" data-update="params.anneeMinIndex|params.anneeMaxIndex">
                         <label>
                             <input type="checkbox" data-model="params.categories[id]" />
-                            <span data-bind="category"></span>
+                            <span data-bind="category.text"></span>
                         </label>
                     </span>
                 </fieldset>
@@ -51,12 +51,12 @@
             </article>
         </section>
         <section class="quiz" data-elif="quiz.questions[quiz.progress]" data-with-question="quiz.questions[quiz.progress]" data-update="quiz|quiz.progress" data-style="{ backgroundColor: question.color, color: question.textColor }">
-            <center>
-                Progression : <span data-bind="quiz.progress"></span> / <span data-bind="quiz.questions.length"></span>
+            <center data-update="quiz.score">
+                Progression : <span data-bind="quiz.progress + 1"></span> / <span data-bind="quiz.questions.length"></span>
                 - 
-                Score : <span data-bind="quiz.score"></span> / <span data-bind="quiz.progress"></span>
+                Score : <span data-bind="quiz.score"></span> / <span data-bind="question.answered != null ? quiz.progress + 1 : quiz.progress"></span>
             </center>
-            <div class="question" data-bind="question.question"></div>
+            <div class="question" data-bind="question.text"></div>
             <div class="answers" data-foreach-answer="question.answers.filter((a, i) => question.answered == null || question.correctAnswer == i)" data-index="i" data-update="question.answered">
                 <button data-bind="answer.text ?? ''" data-style="{ backgroundColor: answer.color, color: answer.textColor }" data-on-click="answerQuiz(quiz, i)"></button>
             </div>
@@ -69,10 +69,18 @@
                 <center data-if="quiz.score / quiz.questions.length > 0.95">Trop fort ! 🎉</center>
                 <center data-elif="quiz.score / quiz.questions.length > 0.8">Plutôt pas mal ! 👏</center>
                 <center data-elif="quiz.score / quiz.questions.length > 0.5">Tu te débrouilles bien 👌</center>
-                <center data-elif="quiz.score / quiz.questions.length >= Math.floor(quiz.questions.length / 4)">Peut mieux faire... 🗿</center>
+                <center data-elif="quiz.score >= Math.floor(quiz.questions.length / 4)">Peut mieux faire... 🗿</center>
                 <center data-else>Tu es plus nul que si tu avais répondu au hasard 🥶</center>
                 <button data-on-click="quiz = null">Recommencer</button>
                 <button data-on-click="location.href = '.'">Réviser</button>
+                <ul data-foreach-question="quiz.questions" class="results">
+                    <li>
+                        <span data-if="question.answered == question.correctAnswer" class="correct">✔︎</span>
+                        <span data-else class="incorrect">✖︎</span>
+                        <span data-bind="question.text"></span>
+                        <span data-with-a="question.answers[question.correctAnswer]" class="answer" data-bind="a.text" data-style="{ color: a.textColor, backgroundColor: a.color }"></span>
+                    </li>
+                </ul>
             </article>
         </section>
     </body>
