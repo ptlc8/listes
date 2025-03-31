@@ -239,7 +239,11 @@
                 "logo": "assets/logos/kheops.png",
                 "animal": "faucon",
                 "ecart": 12,
-                "musique": "GALA - Freed from desire"
+                "musique": "GALA - Freed from desire",
+                "votes": [
+                    107,
+                    124
+                ]
             },
             {
                 "nom": "Kimera",
@@ -250,7 +254,11 @@
                 },
                 "logo": "assets/logos/kimera.png",
                 "animal": "cerbère",
-                "musique": "Taio Cruz - Dynamite"
+                "musique": "Taio Cruz - Dynamite",
+                "votes": [
+                    106,
+                    112
+                ]
             },
             {
                 "nom": "Yakuza",
@@ -260,7 +268,10 @@
                 },
                 "logo": "assets/logos/yakuza.png",
                 "animal": "panda",
-                "musique": "Italobrothers - Stamp On The Ground"
+                "musique": "Italobrothers - Stamp On The Ground",
+                "votes": [
+                    27
+                ]
             },
             {
                 "nom": "Rift",
@@ -269,7 +280,8 @@
                 "logo": "assets/logos/rift.png",
                 "animal": "axolot"
             }
-        ]
+        ],
+        "votes": 283
     },
     {
         "annee": "2020-2021",
@@ -294,7 +306,8 @@
                 },
                 "logo": "assets/logos/moonlight.png",
                 "animal": "tigre blanc",
-                "musique": "Avicii -  The nights"
+                "musique": "Avicii -  The nights",
+                "photo": "assets/photos/moonlight.jpg"
             },
             {
                 "nom": "Genesis",
