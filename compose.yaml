@@ -3,6 +3,8 @@ services:
     build: .
     ports:
       - 80
+    deploy:
+      replicas: ${REPLICAS:-1}
     restart: always
     labels:
       - webproxy.path=listes

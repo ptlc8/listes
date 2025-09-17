@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    parameters {
+        string(name: 'REPLICAS', defaultValue: params.REPLICAS ?: null, description: 'Nombre de replicas')
+    }
+
     stages {
         stage('Build') {
             steps {
@@ -9,8 +13,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'docker compose down --remove-orphans'
-                sh 'docker compose up -d'
+                sh 'docker compose up --remove-orphans -d'
             }
         }
     }
