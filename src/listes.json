@@ -1,6 +1,7 @@
 [
     {
         "annee": "2026-2027",
+        "unfinished": true,
         "listes": [
             {
                 "nom": "Ametra",
@@ -15,12 +16,9 @@
                 "photo": "assets/photos/ametra.jpeg",
                 "musique": "Hot n Cold - Katy Perry",
                 "couleur": "#BF0A77",
-                "texte": "ffffff",
-                "votes": [],
-                "ecart": 0
+                "texte": "ffffff"
             }
-        ],
-        "votes": 0
+        ]
     },
     {
         "annee": "2025-2026",
