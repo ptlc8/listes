@@ -1,5 +1,26 @@
 [
     {
+        "annee": "2026-2027",
+        "unfinished": true,
+        "listes": [
+            {
+                "nom": "Ametra",
+                "animal": "Scorpion",
+                "liens": {
+                    "web": "https://liste-ametra.fr",
+                    "instagram": "https://www.instagram.com/liste_ametra/",
+                    "youtube": "https://www.youtube.com/@L1metra",
+                    "tiktok": "https://www.tiktok.com/@liste_ametra"
+                },
+                "logo": "assets/logos/ametra.png",
+                "photo": "assets/photos/ametra.jpeg",
+                "musique": "Hot N Cold - Katy Perry",
+                "couleur": "#BF0A77",
+                "texte": "#ffffff"
+            }
+        ]
+    },
+    {
         "annee": "2025-2026",
         "listes": [
             {
@@ -24,7 +45,7 @@
                 "ecart": 35
             },
             {
-                "nom": "Calypso", 
+                "nom": "Calypso",
                 "animal": "Serpent des Mers",
                 "liens": {
                     "facebook": "https://www.facebook.com/profile.php?id=61573145785009",
@@ -41,7 +62,7 @@
                 "votes": [
                     107,
                     118
-                ]   
+                ]
             },
             {
                 "nom": "Zephyra",
@@ -819,7 +840,7 @@
                 "votes": 35,
                 "logo": "assets/logos/eistim.jpg",
                 "liens": {
-                   "jo": "https://www.journal-officiel.gouv.fr/pages/associations-detail-annonce/?q.id=id:199900192511"
+                    "jo": "https://www.journal-officiel.gouv.fr/pages/associations-detail-annonce/?q.id=id:199900192511"
                 }
             },
             {
