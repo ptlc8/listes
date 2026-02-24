@@ -18,6 +18,21 @@
                 "couleur": "#BF0A77",
                 "texte": "#ffffff"
             }
+            {
+                "nom": "Vendetta",
+                "animal": "crocodile",
+                "liens": {
+                    "web": "https://matheomalle.github.io/liste-Vendetta/",
+                    "instagram": "https://www.instagram.com/liste_vendetta/",
+                    "youtube": "https://www.youtube.com/@Liste_vendetta",
+                    "tiktok": "https://www.tiktok.com/@liste_vendetta"
+                },
+                "logo": "assets/logos/vendetta.png",
+                "photo": "assets/photos/vendetta.jpg",
+                "musique": "Mark Ronson - Uptown Funk",
+                "couleur": "#E3AB3D",
+                "texte": "#ffffff"
+            }
         ]
     },
     {
