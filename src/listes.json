@@ -4,6 +4,22 @@
         "unfinished": true,
         "listes": [
             {
+                "nom": "Lynaris",
+                "animal": "Gecko rose",
+                "liens": {
+                    "facebook": "https://www.facebook.com/profile.php?id=61575603841767",
+                    "web": "https://lynariswebsite-17364.web.app/",
+                    "instagram": "https://www.instagram.com/Liste_Lynaris",
+                    "youtube": "https://www.youtube.com/@Liste_lynaris",
+                    "tiktok": "https://www.tiktok.com/@Liste_Lynaris"
+                },
+                "logo": "assets/logos/lynaris.png",
+                "photo": "assets/photos/lynaris.jpeg",
+                "musique": "Riton - Friday",
+                "couleur": "#6169a2",
+                "texte": "#ffffff"
+            },
+            {
                 "nom": "Ametra",
                 "animal": "Scorpion",
                 "liens": {
