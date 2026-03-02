@@ -4,6 +4,20 @@
         "unfinished": true,
         "listes": [
             {
+                "nom": "Vendetta",
+                "animal": "crocodile",
+                "liens": {
+                    "web": "https://matheomalle.github.io/liste-Vendetta/",
+                    "instagram": "https://www.instagram.com/liste_vendetta/",
+                    "youtube": "https://www.youtube.com/@Liste_vendetta",
+                    "tiktok": "https://www.tiktok.com/@liste_vendetta"
+                },
+                "logo": "assets/logos/vendetta.jpg",
+                "photo": "assets/photos/vendetta.jpg",
+                "musique": "Mark Ronson - Uptown Funk",
+                "couleur": "#E3AB3D"
+            },
+            {
                 "nom": "Lynaris",
                 "animal": "Gecko rose",
                 "liens": {
