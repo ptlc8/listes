@@ -23,6 +23,7 @@ jobs:
 
   check-json-ref:
     name: Check JSON references
+    needs: validate-json
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
