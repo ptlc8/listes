@@ -1,21 +1,26 @@
 [
     {
         "annee": "2026-2027",
-        "unfinished": true,
         "listes": [
             {
-                "nom": "Vendetta",
-                "animal": "crocodile",
+                "nom": "Ametra",
+                "animal": "Scorpion",
                 "liens": {
-                    "web": "https://matheomalle.github.io/liste-Vendetta/",
-                    "instagram": "https://www.instagram.com/liste_vendetta/",
-                    "youtube": "https://www.youtube.com/@Liste_vendetta",
-                    "tiktok": "https://www.tiktok.com/@liste_vendetta"
+                    "web": "https://liste-ametra.fr",
+                    "instagram": "https://www.instagram.com/liste_ametra/",
+                    "youtube": "https://www.youtube.com/@L1metra",
+                    "tiktok": "https://www.tiktok.com/@liste_ametra"
                 },
-                "logo": "assets/logos/vendetta.jpg",
-                "photo": "assets/photos/vendetta.jpg",
-                "musique": "Mark Ronson - Uptown Funk",
-                "couleur": "#E3AB3D"
+                "logo": "assets/logos/ametra.png",
+                "photo": "assets/photos/ametra.jpeg",
+                "musique": "Hot N Cold - Katy Perry",
+                "couleur": "#BF0A77",
+                "texte": "#ffffff",
+                "votes": [
+                    114,
+                    151
+                ],
+                "ecart": 16
             },
             {
                 "nom": "Lynaris",
@@ -31,24 +36,31 @@
                 "photo": "assets/photos/lynaris.jpeg",
                 "musique": "Riton - Friday",
                 "couleur": "#6169a2",
-                "texte": "#ffffff"
+                "texte": "#ffffff",
+                "votes": [
+                    107,
+                    135
+                ]
             },
             {
-                "nom": "Ametra",
-                "animal": "Scorpion",
+                "nom": "Vendetta",
+                "animal": "crocodile",
                 "liens": {
-                    "web": "https://liste-ametra.fr",
-                    "instagram": "https://www.instagram.com/liste_ametra/",
-                    "youtube": "https://www.youtube.com/@L1metra",
-                    "tiktok": "https://www.tiktok.com/@liste_ametra"
+                    "web": "https://matheomalle.github.io/liste-Vendetta/",
+                    "instagram": "https://www.instagram.com/liste_vendetta/",
+                    "youtube": "https://www.youtube.com/@Liste_vendetta",
+                    "tiktok": "https://www.tiktok.com/@liste_vendetta"
                 },
-                "logo": "assets/logos/ametra.png",
-                "photo": "assets/photos/ametra.jpeg",
-                "musique": "Hot N Cold - Katy Perry",
-                "couleur": "#BF0A77",
-                "texte": "#ffffff"
+                "logo": "assets/logos/vendetta.jpg",
+                "photo": "assets/photos/vendetta.jpg",
+                "musique": "Mark Ronson - Uptown Funk",
+                "couleur": "#E3AB3D",
+                "votes": [
+                    66
+                ]
             }
-        ]
+        ],
+        "votes": 287
     },
     {
         "annee": "2025-2026",
@@ -838,7 +850,8 @@
             },
             {
                 "nom": "T'ESITI cool",
-                "logo": "assets/logos/tesiti_cool.jpg"
+                "logo": "assets/logos/tesiti_cool.jpg",
+                "presque": true
             }
         ],
         "votes": 264,
@@ -880,11 +893,13 @@
             },
             {
                 "nom": "2001 Odyssée de l'EISTI",
-                "logo": "assets/logos/2001_odyssee_de_leisti.jpg"
+                "logo": "assets/logos/2001_odyssee_de_leisti.jpg",
+                "presque": true
             },
             {
                 "nom": "Mieux mieux 200000001",
-                "logo": "assets/logos/mieux_mieux_2000001.jpg"
+                "logo": "assets/logos/mieux_mieux_2000001.jpg",
+                "presque": true
             }
         ],
         "votes": 311,
