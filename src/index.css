@@ -130,11 +130,14 @@ nav > * {
     flex-wrap: wrap;
 }
 .liste .liens img {
+    display: block;
+    min-width: 3em;
     height: 3em;
     background: whitesmoke;
     padding: 0.2em;
     border-radius: 0.5em;
     margin: 0.2em;
+    text-align: center;
 }
 .liste .photo {
     max-width: 100%;
